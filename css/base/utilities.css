@@ -1,0 +1,64 @@
+/* Box Shadows and Accents */
+
+.u-has-shadow-dark {
+  box-shadow: 0 4px 8px var(--shadow-dark);
+}
+
+.u-has-shadow-light {
+  box-shadow: 0 4px 8px var(--shadow-light);
+}
+
+/* Images */
+
+.u-rad-8 {
+  border-radius: 8px;
+}
+
+/* Typography */
+
+.u-light-text > h2,
+.u-light-text > h3,
+.u-light-text > p,
+.u-light-text {
+  color: var(--color-primary);
+}
+
+.u-strong-text-m {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.u-strong-text-l {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+/* .hide-at-1024 {
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.show-at-1024 {
+  @media (max-width: 1025px) {
+    display: block;
+  }
+} */
+
+/* Spacing */
+
+.pt-s {
+  padding-top: var(--spacing-s);
+}
+
+.pt-m {
+  padding-top: var(--spacing-m);
+}
+
+.pt-l {
+  padding-top: var(--spacing-l);
+}
+
+.pt-xl {
+  padding-top: var(--spacing-xl);
+}

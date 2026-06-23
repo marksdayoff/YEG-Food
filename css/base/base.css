@@ -1,0 +1,38 @@
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+html,
+body {
+  background: var(--color-primary);
+}
+
+.bg-green {
+  background: var(--color-green);
+
+  & p,
+  & h1,
+  & h2,
+  & h3 {
+    color: var(--color-primary);
+  }
+}
+section {
+  background: var(--color-primary);
+
+  & .bg-green {
+    background: var(--color-green);
+
+    & p,
+    & h1,
+    & h2,
+    & h3,
+    & li {
+      color: var(--color-primary);
+    }
+  }
+}
+section.bg-green li {
+  color: var(--color-primary);
+}
