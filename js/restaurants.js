@@ -245,45 +245,23 @@ const restaurants = [
 
   // Fillipino
 
-  {
-    name: ,
-    cuisine: ,
-    location: ,
-    address: ,
-    phone: ,
-    website: ,
-    recOne: ,
-    recTwo: ,
-    notes: ,
-  },
+  // {name:'',cuisine:'',location:'',address:'',phone:'',website:'',recOne:'',recTwo:'',notes:'',},
 
   // Gastropub
 
-  {
-    name: ,
-    cuisine: ,
-    location: ,
-    address: ,
-    phone: ,
-    website: ,
-    recOne: ,
-    recTwo: ,
-    notes: ,
-  },
+  {name:'The Common',cuisine:'Gastropub',location:'Downtown',address:'9910 109 St NW',phone:'780-452-7333',website:'https://www.thecommon.ca/',
+    // recOne:'',
+    // recTwo:'',
+    notes:'Solid downtown spot for lunch and dinner with a phenomenal vibe. Lots of good DJs in the evenings.',},
 
+{name:'Otto',cuisine:'Gastropub',cuisineAlt:'German',location:'North',neighbourhood:'FILL',address:'11405 95 St',phone:'-780-477-6244',website:'https://www.ottofoodanddrink.com/', price:'$$',recOne:'FILL',
+  // recTwo:'',
+  notes:'',},
+
+  {name:'Three Vikings',cuisine:'Gastropub', cuisineAlt:'Danish',location:'Downtown',neighbourhood:'OW',address:'10713 124 St',phone:'780-249-6302',website:'https://www.threevikings.ca/', price:'$$',recOne:'FILL',recTwo:'FILL',notes:'Underrated spot on 124th, one of the best food pubs in town.',},
   // Indian
   
-  {
-    name: ,
-    cuisine: ,
-    location: ,
-    address: ,
-    phone: ,
-    website: ,
-    recOne: ,
-    recTwo: ,
-    notes: ,
-  },
+  {name:'',cuisine:'',location:'',address:'',phone:'',website:'',recOne:'',recTwo:'',notes:'',},
 
   // Italian
 
