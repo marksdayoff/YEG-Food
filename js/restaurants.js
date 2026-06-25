@@ -11,7 +11,7 @@ const restaurants = [
 
   {
     name: 'Brio',
-    category: 'Bakery',
+    category: ['Bakery'],
     location: 'Oliver/Wîhkwêntôwin',
     address: '12021 102 Ave \#104, Edmonton, AB T5K 0R8',
     phone: '(780) 424-2131',
@@ -24,7 +24,7 @@ const restaurants = [
 
   {
     name: 'Lift Me Up Bakery',
-    category: 'Bakery',
+    category: ['Bakery'],
     location: 'Oliver/Wîhkwêntôwin',
     address: '10750 124 St, Edmonton, AB T5M 0H1',
     phone: '(780) 452-3393',
@@ -38,7 +38,7 @@ const restaurants = [
 
   {
     name: 'Meat',
-    category: 'BBQ',
+    category: ['BBQ'],
     location: 'OS',
     address: '8216 104 St NW, Edmonton, AB T6E 4E5',
     phone: '(587) 520-6338',
@@ -67,7 +67,7 @@ const restaurants = [
 
   {
     name: 'Odd Company OG',
-    category: 'Brewery',
+    category: ['Brewery', 'Burger'],
     location: 'OW',
     address: '12021 102 Ave #105, Edmonton, AB T5K 0R8',
     phone: '(587) 590-9973',
@@ -82,7 +82,7 @@ const restaurants = [
 
   {
     name: 'Fox Burger Highlands',
-    category: 'Burgers',
+    category: ['Burgers'],
     location: 'North',
     address: '6423 112 Ave NW, Edmonton, AB T5W 0N9',
     phone: '(780) 250-0369',
@@ -121,7 +121,7 @@ const restaurants = [
 
   {
     name: 'Brown Butter Cafe',
-    category: 'Cafe',
+    category: ['Cafe'],
     location: 'South',
     address: '1528 91 St SW, Edmonton, AB T6X 1M5',
     phone: '(780) 752-9900',
@@ -134,7 +134,7 @@ const restaurants = [
 
   {
     name: 'The Colombian',
-    category: 'Cafe',
+    category: ['Cafe'],
     location: ['West', 'OS', 'South'],
     locations: [
       {
@@ -166,7 +166,7 @@ const restaurants = [
 
   {
     name: 'Square 1',
-    category: 'Cafe',
+    category: ['Cafe'],
     location: ['West', 'South'],
     address: [
       {
@@ -193,7 +193,7 @@ const restaurants = [
   //Cajun
   {
     name: 'Da De O',
-    category: 'Cajun',
+    category: ['Cajun'],
     location: 'OS',
     address: '10548 A 82 Ave NW, Edmonton, AB T6E 2A4',
     phone: '780-433-0930',
@@ -208,7 +208,7 @@ const restaurants = [
 
   {
     name: 'Butternut Tree',
-    category: 'Canadian',
+    category: ['Canadian', 'Bougie', 'Date Night'],
     location: 'Central',
     address: '9707 110 St NW #101, Edmonton, AB T5K 2L9',
     phone: '780-760-2271',
@@ -221,7 +221,7 @@ const restaurants = [
 
   {
     name: 'Rge Rd',
-    category: 'Canadian',
+    category: ['Canadian', 'Bougie', 'Date Night'],
     location: 'OW',
     address: '10643 123 St NW, Edmonton, AB T5N 1P2',
     phone: '780-447-4577',
@@ -236,7 +236,7 @@ const restaurants = [
 
   {
     name: 'Lingnan',
-    category: 'Chinese',
+    category: ['Chinese'],
     location: 'Downtown',
     address: '10582 104 St NW, Edmonton, AB T5H 2W1',
     phone: '780-426-3975',
@@ -252,7 +252,7 @@ const restaurants = [
 
   {
     name: 'Dutch Delicious',
-    category: 'Dutch',
+    category: ['Dutch', 'Groceries'],
     location: 'West',
     address: '13232 118 Ave NW',
     phone: '780-455-2323',
@@ -271,7 +271,7 @@ const restaurants = [
 
   {
     name: 'The Common',
-    category: 'Gastropub',
+    category: ['Gastropub'],
     location: 'Downtown',
     address: '9910 109 St NW',
     phone: '780-452-7333',
@@ -313,7 +313,7 @@ const restaurants = [
 
   {
     name: 'Red Star',
-    category: 'Gastropub',
+    category: ['Gastropub'],
     location: 'Downtown',
     neighbourhood: 'Downtown',
     address: '10534 Jasper Ave',
@@ -328,7 +328,7 @@ const restaurants = [
   // Indian
   {
     name: 'Remedy Cafe',
-    category: 'Indian',
+    category: ['Indian', 'Cafe'],
     location: ['Central', 'South'],
     locations: [
       {
@@ -354,7 +354,7 @@ const restaurants = [
 
   {
     name: 'Nosh Cafe',
-    category: 'Indian',
+    category: ['Indian'],
     location: 'Central',
     neighbourhood: 'OW',
     address: '8708 109 St NW',
@@ -386,7 +386,7 @@ const restaurants = [
   // Italian
   {
     name: 'Bar Bricco',
-    category: 'Italian',
+    category: ['Italian', 'Bougie', 'Date Night'],
     location: 'Central',
     neighbourhood: 'Downtown',
     address: '10347 Jasper Ave',
@@ -401,7 +401,7 @@ const restaurants = [
 
   {
     name: 'Va!',
-    category: 'Italian',
+    category: ['Italian', 'Cafe'],
     location: 'Central',
     neighbourhood: 'OW',
     address: '12024 Jasper Ave',
@@ -416,7 +416,7 @@ const restaurants = [
 
   {
     name: 'Olia',
-    category: 'Italian',
+    category: ['Italian', 'Bougie', 'Date Night'],
     location: 'Central',
     neighbourhood: 'OW',
     address: '12016 Jasper Avenue',
@@ -431,7 +431,7 @@ const restaurants = [
 
   {
     name: 'Italian Centre',
-    category: 'Italian',
+    category: ['Italian', 'Cafe'],
     location: ['Central', 'South'],
     locations: [
       {
@@ -458,7 +458,7 @@ const restaurants = [
   // Japanese
   {
     name: 'Izakaya Tomo',
-    category: 'Japanese',
+    category: ['Japanese'],
     location: 'South',
     neighbourhood: 'Strathcona Industrial Park',
     address: '3739 99st Edmonton, AB',
@@ -473,7 +473,7 @@ const restaurants = [
 
   {
     name: 'Dorinku Tokyo',
-    category: 'Japanese',
+    category: ['Japanese'],
     location: 'South',
     neighbourhood: 'OS',
     address: '10205 82 ave',
@@ -488,7 +488,7 @@ const restaurants = [
 
   {
     name: 'Japonais',
-    category: 'Japanese',
+    category: ['Japanese'],
     location: 'Central',
     locations: [
       {
@@ -515,7 +515,7 @@ const restaurants = [
   // Korean
   {
     name: 'Seoul Fried Chicken',
-    category: 'Korean',
+    category: ['Korean'],
     location: ['Central', 'South'],
     locations: [
       {
@@ -541,7 +541,7 @@ const restaurants = [
 
   {
     name: 'Buok',
-    category: 'Koren',
+    category: ['Korean'],
     location: 'Central',
     neighbourhood: 'Downtown',
     address: '10707 100 Ave NW',
@@ -556,7 +556,14 @@ const restaurants = [
   // Latin & Meixcan
   {
     name: 'Paraiso',
-    category: 'Latin & Mexican',
+    category: [
+      'Latin',
+      'Venezuelan',
+      'Colombian',
+      'Salvadorian',
+      'Guatelmalan',
+      'Mexican',
+    ],
     location: ['Central', 'South'],
     locations: [
       {
@@ -582,7 +589,7 @@ const restaurants = [
 
   {
     name: 'Avila Arepa',
-    category: 'Latin & Mexican',
+    category: ['Latin', 'Guatemalan'],
     location: 'South',
     neighbourhood: 'OS',
     address: '10760 82 Ave NW,',
@@ -599,7 +606,7 @@ const restaurants = [
 
   {
     name: 'Al Salam Bakery',
-    category: 'Middle Eastern & Persian',
+    category: ['Middle Eastern'],
     location: 'South',
     neighbourhood: 'Strathcona Industrial Park',
     address: '10141 34 Ave NW',
@@ -613,7 +620,7 @@ const restaurants = [
 
   {
     name: 'Sunbake Pita',
-    category: 'Middle Eastern & Persian',
+    category: 'Middle Eastern',
     location: 'North',
     neighbourhood: 'Rosslyn',
     address: '10728 134 Ave NW',
@@ -628,7 +635,7 @@ const restaurants = [
 
   {
     name: 'Shaheen Grocery',
-    category: 'Middle Eastern & Iranian',
+    category: ['Afghan', 'Iranian'],
     location: 'South',
     neighbourhood: 'Ermineskin',
     address: '2830 Calgary Trail NW',
