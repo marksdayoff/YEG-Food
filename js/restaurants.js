@@ -216,6 +216,7 @@ const restaurants = [
     address: '10548 A 82 Ave NW, Edmonton, AB T6E 2A4',
     phone: '780-433-0930',
     website: 'http://dadeo.ca',
+    price: '$-$$',
     recOne: 'Pulled Pork Po Boy',
     recTwo: 'Sweet Potato Fries',
     notes:
@@ -231,6 +232,7 @@ const restaurants = [
     address: '9707 110 St NW #101, Edmonton, AB T5K 2L9',
     phone: '780-760-2271',
     website: 'https://thebutternuttree.ca/',
+    price: '$$$$',
     // recOne: ,
     // recTwo: ,
     notes:
@@ -244,6 +246,7 @@ const restaurants = [
     address: '10643 123 St NW, Edmonton, AB T5N 1P2',
     phone: '780-447-4577',
     website: 'https://www.rgerd.ca/',
+    price: '$$$$',
     // recOne: ,
     // recTwo: ,
     notes:
@@ -259,6 +262,7 @@ const restaurants = [
     address: '10582 104 St NW, Edmonton, AB T5H 2W1',
     phone: '780-426-3975',
     website: 'https://thelingnan.com/',
+    price: '$$',
     // recOne: ,
     // recTwo: ,
     notes: "As far as Canadian-Chinese food goes, this is where it's at.",
@@ -275,8 +279,6 @@ const restaurants = [
     address: '13232 118 Ave NW',
     phone: '780-455-2323',
     website: 'https://dutchdeliciousbakery.com/',
-    // recOne: ,
-    // recTwo: ,
     notes:
       'Dutch specialty store. Lots of cheese, pastries, and other imported snacks.',
   },
@@ -294,6 +296,7 @@ const restaurants = [
     address: '9910 109 St NW',
     phone: '780-452-7333',
     website: 'https://www.thecommon.ca/',
+    price: '$$-$$$',
     // recOne:'',
     // recTwo:'',
     notes:
