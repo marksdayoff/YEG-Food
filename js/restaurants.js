@@ -512,6 +512,36 @@ const restaurants = [
       '<ul><li>One of the top spots for higher end sushi.</li><li>Lunch Bentos are a killer deal.</li></ul>',
   },
 
+  {
+    name: 'Tokiwa',
+    category: ['Japanese'],
+    location: 'Central',
+    neighbourhood: 'OW',
+    address:
+      '<a href="https://www.google.com/maps/place/Tokiwa+Ramen/@53.547453,-113.5305568,17z/data=!4m6!3m5!1s0x53a023d2b2dc5fbb:0xb44423113114b408!8m2!3d53.5474322!4d-113.5279032!16s%2Fg%2F11g6_5kz67?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">11978 104 Ave NW</a>',
+    phone: '+17807611400',
+    website: '<a href="https://tokiwaramen.ca/">Website</a>',
+    price: '$$',
+    recOne: 'Black Garlic Ramen',
+    recTwo: 'Spicy Goma Ramen',
+    notes:
+      '<ul><li>Hands down the best ramen in the city.</li><li>Line-ups on the weekend, expect to wait.</li><li>Closing hours vary, only open until broth runs out.</li></ul>',
+  },
+
+  {
+    name: '',
+    category: [''],
+    location: '',
+    neighbourhood: '',
+    address: '<a href=""></a>',
+    phone: '',
+    website: '<a href="">Website</a>',
+    price: '',
+    recOne: '',
+    recTwo: '',
+    notes: '<ul><li></li></ul>',
+  },
+
   // Korean
   {
     name: 'Seoul Fried Chicken',
@@ -710,6 +740,117 @@ const restaurants = [
       '<ul><li>These beauties run the best pizza shop in town. Top shelf ingredients, sourdough crust, fermented tomato sauce... You can get a 10" for under $20 and the price to quality is unmatched. Tip and tax included in the price. Absolute banger spot. If I did ratings on this site, i\'d give it 11/10.</li></ul>',
   },
   // Portuguese
+  {
+    name: 'Sabor',
+    category: ['Portuguese', 'Seafood'],
+    location: 'Central',
+    neighbourhood: 'Downtown',
+    address:
+      '<a href="https://www.google.com/maps/place/sabor/data=!4m2!3m1!1s0x53a0224890edca61:0xcb4267c543d4e2de?sa=X&ved=1t:242&ictx=111">#109, 10220 103 St NW</a>',
+    phone: '',
+    website: '<a href="https://www.sabor.ca/">Website</a>',
+    price: '$$$',
+    recOne: '',
+    recTwo: '',
+    notes: '<ul><li>Best seafood in the city.</li></ul>',
+  },
+
+  // Pub
+
+  {
+    name: 'Sherlock Holmes',
+    category: ['Pub'],
+    location: 'Central',
+    neighbourhood: 'Downtown',
+    address:
+      '<a href="https://www.google.com/maps/place/The+Sherlock+Holmes+Pub+Downtown/@53.5424491,-113.4913599,17z/data=!3m1!4b1!4m6!3m5!1s0x53a0224596254607:0x82ea31f8d983f5e7!8m2!3d53.5424491!4d-113.4913599!16s%2Fg%2F1tfv4tdw?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10012 101A Ave</a>',
+    phone: '178-0426-7784',
+    website: '<a href="https://www.sherlockshospitality.com/">Website</a>',
+    price: '$$',
+    recOne: '',
+    recTwo: '',
+    notes:
+      "<ul><li>Proper English pub that's been around for almost 20 years. One of the best spots for a pint in the city.</li><li>Several locations exist, but downtown is the best.</li></ul>",
+  },
+
+  // Sandwiches
+
+  {
+    name: 'Farrow',
+    category: ['Sandwiches'],
+    location: ['South', 'Central'],
+    locations: [
+      {
+        location: 'South',
+        neighbourhood: 'Garneau',
+        address:
+          '<a href="https://www.google.com/maps/place/Farrow+Garneau/@53.5206409,-113.5514175,14z/data=!3m1!5s0x53a0221c0cee119d:0x4ae1ea34ea82a9ac!4m10!1m2!2m1!1sfarrow!3m6!1s0x53a021ff97bfffff:0x418cfe15f6adaa0c!8m2!3d53.5206409!4d-113.5123616!15sCgZmYXJyb3ciA4gBAVoIIgZmYXJyb3eSAQ1zYW5kd2ljaF9zaG9w4AEA!16s%2Fg%2F1pzsyx8vc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">8422 109 St NW</a>',
+        phone: '+17807574160',
+      },
+
+      {
+        location: 'Central',
+        neighbourhood: 'OW',
+        address:
+          '<a href="https://www.google.com/maps/place/Farrow+Garneau/@53.5206409,-113.5514175,14z/data=!3m1!5s0x53a0221c0cee119d:0x4ae1ea34ea82a9ac!4m10!1m2!2m1!1sfarrow!3m6!1s0x53a021ff97bfffff:0x418cfe15f6adaa0c!8m2!3d53.5206409!4d-113.5123616!15sCgZmYXJyb3ciA4gBAVoIIgZmYXJyb3eSAQ1zYW5kd2ljaF9zaG9w4AEA!16s%2Fg%2F1pzsyx8vc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">#6, 10240 124 St</a>',
+        phone: '+17807574160',
+      },
+    ],
+
+    website: '<a href="https://farrowsandwiches.ca/">Website</a>',
+    price: '$',
+    recOne: 'The Grick',
+    recTwo: '',
+    notes:
+      "<ul><li>You won't find a better breakfast sandwich than the Grick.</li><li>Other locations downtown and in Ritchie</li></ul>",
+  },
+
+  {
+    name: 'Pals',
+    category: ['Sandwiches'],
+    location: 'Sotuh',
+    neighbourhood: 'OS',
+    address:
+      '<a href="https://www.google.com/maps/place/Pals+Sandwiches/@53.5363462,-113.6022164,13z/data=!4m10!1m2!2m1!1spals!3m6!1s0x53a02332884b2667:0xb19d88b1de2a6ad3!8m2!3d53.5189834!4d-113.4971178!15sCgRwYWxzWgYiBHBhbHOSAQ1zYW5kd2ljaF9zaG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJvYTJWMlpHWjNFQUXgAQD6AQQITRA2!16s%2Fg%2F11t9cft2nk?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10335 83 Ave NW</a>',
+    phone: '825-480-5300',
+    website: '<a href="https://www.palsyeg.com/">Website</a>',
+    price: '$$',
+    recOne: 'Cubano',
+    recTwo: '',
+    notes:
+      '<ul><li>The Cubano is &#x1f525 (When they have it on the menu, at least)</li></ul>',
+  },
+  {
+    name: "Wilfred's",
+    category: ['Brunch', 'Sandwiches'],
+    location: 'Central',
+    neighbourhood: 'OW',
+    address:
+      '<a href="https://www.google.com/maps/place/wilfreds/data=!4m2!3m1!1s0x53a023d2d37c3fd1:0x2faede03ffbe5f4b?sa=X&ved=1t:242&ictx=111">10429 121 St NW,</a>',
+    phone: '780-250-2056',
+    website: '<a href="https://www.wilfreds.co/">Website</a>',
+    price: '$$',
+    recOne: 'Lobster Roll',
+    recTwo: '',
+    notes:
+      '<ul><li>Not wheelchair accessable due to being housed in a heritage building.</li></ul>',
+  },
+
+  {
+    name: 'Fifendekel',
+    category: ['Sandwiches'],
+    location: 'South',
+    neighbourhood: 'Mayfield',
+    address:
+      '<a href="https://www.google.com/maps/place/Fifendekel/@53.5598168,-113.6540309,13.59z/data=!4m10!1m2!2m1!1sfifendekel!3m6!1s0x53a02118aac5c2ab:0x9386e9734969ba49!8m2!3d53.5520175!4d-113.6161127!15sCgpmaWZlbmRla2VsIgOIAQFaDCIKZmlmZW5kZWtlbJIBDXNhbmR3aWNoX3Nob3DgAQA!16s%2Fg%2F1td1v3k2?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10646 170 St NW</a>',
+    phone: '780-489-6436',
+    website: '<a href="https://www.fifendekel.ca/">Website</a>',
+    price: '$',
+    recOne: 'Chicken Salad Sandwich',
+    recTwo: '',
+    notes:
+      "<ul><li>Multiple locations, but I've only been to the 170 St one.</li></ul>",
+  },
 
   // Vegan
 

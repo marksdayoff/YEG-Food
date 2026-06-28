@@ -1,5 +1,9 @@
 # To Do
 
+## Features
+
+# Tributes
+
 ## Colors
 
 ## Card Elements
