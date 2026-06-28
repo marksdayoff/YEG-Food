@@ -49,11 +49,11 @@ const restaurants = [
       'Best BBQ place in Edmonton. Large portions meant for sharing with groups.',
   },
 
-  // Breakfast
+  // Breakfast/Brunch
 
   {
     name: "Barb & Ernie's",
-    category: ['Breakfast', 'German'],
+    category: ['Breakfast', 'Brunch', 'German'],
     location: 'OS',
     address: '9906 72 Ave NW, Edmonton, AB T6E 0Z3',
     phone: '(780) 433-3242',
@@ -61,6 +61,21 @@ const restaurants = [
     recOne: 'Bratwurst Benny',
     // recTwo: rec,
     notes: 'German food and incredible breakfast. An Edmonton institution.',
+  },
+
+  {
+    name: 'Dogpatch',
+    category: ['Brunch', 'Pub'],
+    location: 'Central',
+    neighbourhood: 'Riverdale',
+    address:
+      '<a href="https://www.google.com/maps/place/@53.544668,-113.4737124,697m/data=!3m2!1e3!4b1!4m6!3m5!1s0x53a023f6604bc969:0xcf847540df051ba2!8m2!3d53.5446648!4d-113.4711375!16s%2Fg%2F11r7sx39_c?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">#101, 10158 90 St NW</a>',
+    phone: '780-761-8700',
+    website: '<a href="https://www.dogpatchyeg.ca/">Website</a>',
+    price: '$$',
+    recOne: '',
+    recTwo: '',
+    notes: '<ul><li></li></ul>',
   },
 
   // Breweries
@@ -81,7 +96,7 @@ const restaurants = [
   // Burgers
 
   {
-    name: 'Fox Burger Highlands',
+    name: 'Fox Burger',
     category: ['Burgers'],
     location: 'North',
     address: '6423 112 Ave NW, Edmonton, AB T5W 0N9',
@@ -92,18 +107,6 @@ const restaurants = [
     notes:
       "There are locations in Westmount and Leduc as well, but I've only been to the OG in Highlands.",
   },
-
-  // {
-  //   name: 'Fox Burger Westmount',
-  //   category: ,
-  //   location: 'Westmount',
-  //   address: ,
-  //   phone: ,
-  //   website: ,
-  //   recOne: ,
-  //   recTwo: ,
-  //   notes: ,
-  // },
 
   {
     name: 'Flat Boy',
@@ -188,6 +191,21 @@ const restaurants = [
     // recTwo: ,
     notes:
       "<ul><li>Great Coffee.</li><li>Several other locations that I haven't visited.</li><li>South (Fairway) Location has a lot of cool stuff to buy.</li><li>Glenora location is my favourite office away from the office.</li></ul>",
+  },
+
+  {
+    name: 'Little Brick',
+    category: ['Cafe'],
+    location: 'Central',
+    neighbourhood: 'Riverdale',
+    address:
+      '<a href="https://www.google.com/maps/place/@53.5421187,-113.4696022,697m/data=!3m2!1e3!4b1!4m6!3m5!1s0x53a0225f2a3698f1:0x25146da93bec151c!8m2!3d53.5421187!4d-113.4696022!16s%2Fg%2F11b7hkc0c2?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10004 90 St NW</a>',
+    phone: '780-705-1230',
+    website: '<a href="https://littlebrick.ca/">Website</a>',
+    price: '$-$$',
+    recOne: '',
+    recTwo: '',
+    notes: '<ul><li></li></ul>',
   },
 
   //Cajun
@@ -742,7 +760,7 @@ const restaurants = [
   // Portuguese
   {
     name: 'Sabor',
-    category: ['Portuguese', 'Seafood'],
+    category: ['Portuguese', 'Seafood', 'Mediterranean'],
     location: 'Central',
     neighbourhood: 'Downtown',
     address:
@@ -850,6 +868,59 @@ const restaurants = [
     recTwo: '',
     notes:
       "<ul><li>Multiple locations, but I've only been to the 170 St one.</li></ul>",
+  },
+
+  // Spanish
+  {
+    name: 'Bodega',
+    category: ['Spanish'],
+    location: ['North', 'Central'],
+    locations: [
+      {
+        location: 'North',
+        neighbourhood: 'Highlands',
+        address:
+          '<a href=-"https://www.google.com/maps/place/Bodega+Highlands/@53.5379317,-113.515406,11151m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a022d8b5660b1d:0x5739e7f250d88ab9!8m2!3d53.564646!4d-113.4381348!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJzNVYyTXpSbEpVVjBaYVZsWTVWMU5GV25OVFZVNWhUVEJzVTJGV1JSQULgAQD6AQQIGBBH!16s%2Fg%2F11c4bg6yx8?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">6509 112 Ave NW</a>',
+        phone: '780-757-0137',
+      },
+      {
+        location: 'Central',
+        neighbourhood: 'Downtown',
+        address:
+          '<a href="https://www.google.com/maps/place/@53.5379317,-113.515406,11151m/data=!3m2!1e3!5s0x53a022489237a1df:0x454a1ed829979579!4m10!1m2!2m1!1sbodega!3m6!1s0x53a0224890f2d03b:0xa701382f02a061a6!8m2!3d53.5434186!4d-113.497686!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwV2JrNUlaSE5WVkVJeFZtcG9NVnB1VlRSV2FsWjBXbFZTVkZGWVl4QULgAQD6AQQIABAx!16s%2Fg%2F11b6q8z78s?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10220 103 St NW</a>',
+        phone: '780-757-1114',
+      },
+      {
+        location: 'Central',
+        neighbourhood: 'OW',
+        address:
+          '<a href="https://www.google.com/maps/place/Bodega+124+Street/@53.5468056,-113.6131899,11149m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a023d4bd68259f:0xc17e09eacf95536!8m2!3d53.5468056!4d-113.5369722!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEKcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOQ1owd3RNVTluRUFF4AEA-gEFCKwEEC0!16s%2Fg%2F11f48js5bn?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">12417 Stony Plain Rd</a>',
+        phone: '780-250-6066',
+      },
+    ],
+    website: '<a href="https://www.bodegabysabor.ca/">Website</a>',
+    price: '$$$',
+    recOne: '',
+    recTwo: '',
+    notes:
+      '<ul><li>Spanish tapas. Small plates, best shared by a group of people.</li></ul>',
+  },
+
+  // Thai
+
+  {
+    name: 'Numchok Wilai',
+    category: ['Thai'],
+    location: 'Central',
+    neighbourhood: 'OW',
+    address:
+      '<a href="https://www.google.com/maps/place/Numchok+Wilai+Restaurant/@53.5504793,-113.5383814,16.72z/data=!4m10!1m3!11m2!2shQLWEvrj8-nEq6P77NxI7Q3beqahCw!3e3!3m5!1s0x53a023d3bf9df11f:0xf4aaaa55b079bf85!8m2!3d53.5500993!4d-113.5357209!16s%2Fg%2F1v76zbbz?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10623 124 St NW</a>',
+    phone: '780-488-7897',
+    website: '<a href="https://numchokwilai.ca/">Website</a>',
+    price: '$$',
+    recOne: '',
+    recTwo: '',
+    notes: '<ul><li></li></ul>',
   },
 
   // Vegan
