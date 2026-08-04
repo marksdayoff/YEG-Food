@@ -30,8 +30,22 @@ const restaurants = [
     phone: '(780) 452-3393',
     website: 'https://www.tiramisubistro.ca/',
     recOne: 'Cinnamon Buns',
-    recTwo: null,
-    notes: null,
+    // recTwo: null,
+    notes: 'The cinnamon buns are not cheap, but they are completely worth it.',
+  },
+
+  {
+    name: 'Duchess',
+    category: ['Bakery'],
+    location: 'Central',
+    neighbourhood: 'OW',
+    address: '<a href=""></a>',
+    phone: '',
+    website: '<a href="">Website</a>',
+    price: '',
+    recOne: '',
+    recTwo: '',
+    notes: '<ul><li></li></ul>',
   },
 
   // Barbeque
