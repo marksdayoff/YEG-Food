@@ -905,6 +905,7 @@ const restaurants = [
     price: '$$$',
     recOne: '',
     recTwo: '',
+
     notes:
       '<ul><li>Spanish tapas. Small plates, best shared by a group of people.</li></ul>',
   },
