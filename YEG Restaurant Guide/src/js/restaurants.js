@@ -10,6 +10,7 @@ const restaurants = [
   // Bakeries
 
   {
+    id: 1,
     name: 'Brio',
     category: ['Bakery'],
     location: 'Oliver/Wîhkwêntôwin',
@@ -23,6 +24,7 @@ const restaurants = [
   },
 
   {
+    id: 2,
     name: 'Lift Me Up Bakery',
     category: ['Bakery'],
     location: 'Oliver/Wîhkwêntôwin',
@@ -35,6 +37,7 @@ const restaurants = [
   },
 
   {
+    id: 3,
     name: 'Duchess',
     category: ['Bakery'],
     location: 'Central',
@@ -51,6 +54,7 @@ const restaurants = [
   // Barbeque
 
   {
+    id: 4,
     name: 'Meat',
     category: ['BBQ'],
     location: 'OS',
@@ -66,6 +70,7 @@ const restaurants = [
   // Breakfast/Brunch
 
   {
+    id: 5,
     name: "Barb & Ernie's",
     category: ['Breakfast', 'Brunch', 'German'],
     location: 'OS',
@@ -78,6 +83,7 @@ const restaurants = [
   },
 
   {
+    id: 6,
     name: 'Dogpatch',
     category: ['Brunch', 'Pub'],
     location: 'Central',
@@ -95,6 +101,7 @@ const restaurants = [
   // Breweries
 
   {
+    id: 7,
     name: 'Odd Company OG',
     category: ['Brewery', 'Burger'],
     location: 'OW',
@@ -110,6 +117,7 @@ const restaurants = [
   // Burgers
 
   {
+    id: 8,
     name: 'Fox Burger',
     category: ['Burgers'],
     location: 'North',
@@ -123,6 +131,7 @@ const restaurants = [
   },
 
   {
+    id: 9,
     name: 'Flat Boy',
     // category: ,
     // location: ,
@@ -137,6 +146,7 @@ const restaurants = [
   // Cafe
 
   {
+    id: 10,
     name: 'Brown Butter Cafe',
     category: ['Cafe'],
     location: 'South',
@@ -150,6 +160,7 @@ const restaurants = [
   },
 
   {
+    id: 11,
     name: 'The Colombian',
     category: ['Cafe'],
     location: ['West', 'OS', 'South'],
@@ -182,6 +193,7 @@ const restaurants = [
   },
 
   {
+    id: 12,
     name: 'Square 1',
     category: ['Cafe'],
     location: ['West', 'South'],
@@ -208,6 +220,7 @@ const restaurants = [
   },
 
   {
+    id: 13,
     name: 'Little Brick',
     category: ['Cafe'],
     location: 'Central',
@@ -224,6 +237,7 @@ const restaurants = [
 
   //Cajun
   {
+    id: 14,
     name: 'Da De O',
     category: ['Cajun'],
     location: 'OS',
@@ -240,6 +254,7 @@ const restaurants = [
   // Canadian
 
   {
+    id: 15,
     name: 'Butternut Tree',
     category: ['Canadian', 'Bougie', 'Date Night'],
     location: 'Central',
@@ -254,6 +269,7 @@ const restaurants = [
   },
 
   {
+    id: 16,
     name: 'Rge Rd',
     category: ['Canadian', 'Bougie', 'Date Night'],
     location: 'OW',
@@ -270,6 +286,7 @@ const restaurants = [
   // Chinese
 
   {
+    id: 17,
     name: 'Lingnan',
     category: ['Chinese'],
     location: 'Downtown',
@@ -287,6 +304,7 @@ const restaurants = [
   // Dutch
 
   {
+    id: 18,
     name: 'Dutch Delicious',
     category: ['Dutch', 'Groceries'],
     location: 'West',
@@ -304,6 +322,7 @@ const restaurants = [
   // Gastropub
 
   {
+    id: 19,
     name: 'The Common',
     category: ['Gastropub'],
     location: 'Downtown',
@@ -318,6 +337,7 @@ const restaurants = [
   },
 
   {
+    id: 20,
     name: 'Otto',
     category: ['Gastropub', 'German'],
     location: 'North',
@@ -332,6 +352,7 @@ const restaurants = [
   },
 
   {
+    id: 21,
     name: 'Three Vikings',
     category: ['Gastropub', 'Danish'],
     categoryAlt: 'Danish',
@@ -347,6 +368,7 @@ const restaurants = [
   },
 
   {
+    id: 22,
     name: 'Red Star',
     category: ['Gastropub'],
     location: 'Downtown',
@@ -362,6 +384,7 @@ const restaurants = [
 
   // Indian
   {
+    id: 23,
     name: 'Remedy Cafe',
     category: ['Indian', 'Cafe'],
     location: ['Central', 'South'],
@@ -388,6 +411,7 @@ const restaurants = [
   },
 
   {
+    id: 24,
     name: 'Nosh Cafe',
     category: ['Indian'],
     location: 'Central',
@@ -404,6 +428,7 @@ const restaurants = [
 
   // Indonesian
   {
+    id: 25,
     name: 'Padmanadi',
     category: ['Indonesian', 'Vegan'],
     location: 'Central',
@@ -420,6 +445,7 @@ const restaurants = [
 
   // Italian
   {
+    id: 26,
     name: 'Bar Bricco',
     category: ['Italian', 'Bougie', 'Date Night'],
     location: 'Central',
@@ -435,6 +461,7 @@ const restaurants = [
   },
 
   {
+    id: 27,
     name: 'Va!',
     category: ['Italian', 'Cafe'],
     location: 'Central',
@@ -450,6 +477,7 @@ const restaurants = [
   },
 
   {
+    id: 28,
     name: 'Olia',
     category: ['Italian', 'Bougie', 'Date Night'],
     location: 'Central',
@@ -465,6 +493,7 @@ const restaurants = [
   },
 
   {
+    id: 29,
     name: 'Italian Centre',
     category: ['Italian', 'Cafe'],
     location: ['Central', 'South'],
@@ -492,6 +521,7 @@ const restaurants = [
 
   // Japanese
   {
+    id: 30,
     name: 'Izakaya Tomo',
     category: ['Japanese'],
     location: 'South',
@@ -507,6 +537,7 @@ const restaurants = [
   },
 
   {
+    id: 31,
     name: 'Dorinku Tokyo',
     category: ['Japanese'],
     location: 'South',
@@ -522,6 +553,7 @@ const restaurants = [
   },
 
   {
+    id: 32,
     name: 'Japonais',
     category: ['Japanese'],
     location: 'Central',
@@ -548,6 +580,7 @@ const restaurants = [
   },
 
   {
+    id: 33,
     name: 'Tokiwa',
     category: ['Japanese'],
     location: 'Central',
@@ -564,6 +597,7 @@ const restaurants = [
   },
 
   {
+    id: 34,
     name: '',
     category: [''],
     location: '',
@@ -579,6 +613,7 @@ const restaurants = [
 
   // Korean
   {
+    id: 35,
     name: 'Seoul Fried Chicken',
     category: ['Korean'],
     location: ['Central', 'South'],
@@ -605,6 +640,7 @@ const restaurants = [
   },
 
   {
+    id: 36,
     name: 'Buok',
     category: ['Korean'],
     location: 'Central',
@@ -620,6 +656,7 @@ const restaurants = [
 
   // Latin & Meixcan
   {
+    id: 37,
     name: 'Paraiso',
     category: [
       'Latin',
@@ -653,6 +690,7 @@ const restaurants = [
   },
 
   {
+    id: 38,
     name: 'Avila Arepa',
     category: ['Latin', 'Guatemalan'],
     location: 'South',
@@ -670,6 +708,7 @@ const restaurants = [
   // Middle Eastern & Persian
 
   {
+    id: 39,
     name: 'Al Salam Bakery',
     category: ['Middle Eastern'],
     location: 'South',
@@ -684,6 +723,7 @@ const restaurants = [
   },
 
   {
+    id: 40,
     name: 'Sunbake Pita',
     category: 'Middle Eastern',
     location: 'North',
@@ -699,6 +739,7 @@ const restaurants = [
   },
 
   {
+    id: 41,
     name: 'Shaheen Grocery',
     category: ['Afghan', 'Iranian'],
     location: 'South',
@@ -714,6 +755,7 @@ const restaurants = [
   },
   // Pizza
   {
+    id: 42,
     name: 'Capital Pizza',
     category: ['Pizza', 'Italian'],
     location: 'North',
@@ -729,6 +771,7 @@ const restaurants = [
       '<ul><li>Old school "Steak and Pizza" joint. I\'ve been eating this pizza since I was a child.</li></ul>',
   },
   {
+    id: 43,
     name: 'Dallas Pizza',
     category: ['Pizza'],
     location: 'East',
@@ -744,6 +787,7 @@ const restaurants = [
       '<ul><li>Solid quality pizza from a typical "Steak and Pizza" restaurant. Second to Capital Pizza in this style of pie.</li></ul>',
   },
   {
+    id: 44,
     name: 'High Dough',
     category: ['Pizza'],
     location: 'South',
@@ -760,6 +804,7 @@ const restaurants = [
   },
 
   {
+    id: 45,
     name: "Fn'Za",
     category: ['Pizza'],
     location: 'Central',
@@ -776,6 +821,7 @@ const restaurants = [
   },
   // Portuguese
   {
+    id: 46,
     name: 'Sabor',
     category: ['Portuguese', 'Seafood', 'Mediterranean'],
     location: 'Central',
@@ -793,6 +839,7 @@ const restaurants = [
   // Pub
 
   {
+    id: 47,
     name: 'Sherlock Holmes',
     category: ['Pub'],
     location: 'Central',
@@ -811,6 +858,7 @@ const restaurants = [
   // Sandwiches
 
   {
+    id: 48,
     name: 'Farrow',
     category: ['Sandwiches'],
     location: ['South', 'Central'],
@@ -841,6 +889,7 @@ const restaurants = [
   },
 
   {
+    id: 49,
     name: 'Pals',
     category: ['Sandwiches'],
     location: 'Sotuh',
@@ -855,23 +904,9 @@ const restaurants = [
     notes:
       '<ul><li>The Cubano is &#x1f525 (When they have it on the menu, at least)</li></ul>',
   },
-  {
-    name: "Wilfred's",
-    category: ['Brunch', 'Sandwiches'],
-    location: 'Central',
-    neighbourhood: 'OW',
-    address:
-      '<a href="https://www.google.com/maps/place/wilfreds/data=!4m2!3m1!1s0x53a023d2d37c3fd1:0x2faede03ffbe5f4b?sa=X&ved=1t:242&ictx=111">10429 121 St NW,</a>',
-    phone: '780-250-2056',
-    website: '<a href="https://www.wilfreds.co/">Website</a>',
-    price: '$$',
-    recOne: 'Lobster Roll',
-    recTwo: '',
-    notes:
-      '<ul><li>Not wheelchair accessable due to being housed in a heritage building.</li></ul>',
-  },
 
   {
+    id: 50,
     name: 'Fifendekel',
     category: ['Sandwiches'],
     location: 'South',
@@ -889,6 +924,7 @@ const restaurants = [
 
   // Spanish
   {
+    id: 51,
     name: 'Bodega',
     category: ['Spanish'],
     location: ['North', 'Central'],
@@ -927,6 +963,7 @@ const restaurants = [
   // Thai
 
   {
+    id: 52,
     name: 'Numchok Wilai',
     category: ['Thai'],
     location: 'Central',

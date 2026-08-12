@@ -10,8 +10,10 @@ function RestaurantCard({ restaurant }) {
       <p className='phone'>{restaurant.phone}</p>
       <p className='website'>{restaurant.website}</p>
       <p className='price'>{restaurant.price}</p>  
-      <p className='rec'>{restaurant.recOne}</p>
-      <p className='rec'>{restaurant.recTwo}</p>
+      <div className='recs'>
+        <p className='rec'>{restaurant.recOne}</p>
+        <p className='rec'>{restaurant.recTwo}</p>
+      </div>
       <p className='notes'>{restaurant.notes}</p>
     </div>
   );
