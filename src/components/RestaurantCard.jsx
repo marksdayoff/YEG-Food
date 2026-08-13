@@ -1,7 +1,7 @@
 function RestaurantCard({ restaurant }) {
   // App will destructure the restaurant input and break down the object into individual components
   return (
-    <div class='restaurant-card'>
+    <div className='restaurant-card'>
       <h3 className='name'>{restaurant.name}</h3>
       <p className='category'></p>
       <p className='location'>{restaurant.location}</p>

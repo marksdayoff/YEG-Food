@@ -1,12 +1,4 @@
-'use strict';
-
-// Key:
-// OS = Old Strathcona
-// OW = Oliver/Wîhkwêntôwin
-// WM = Westmount
-// MC
-
-const restaurants = [
+export const restaurants = [
   // Bakeries
 
   {
@@ -124,24 +116,24 @@ const restaurants = [
     address: '6423 112 Ave NW, Edmonton, AB T5W 0N9',
     phone: '(780) 250-0369',
     website: 'foxburger.ca',
-    recOne: FILL,
+    recOne: '',
     // recTwo: ,
     notes:
       "There are locations in Westmount and Leduc as well, but I've only been to the OG in Highlands.",
   },
 
-  {
-    id: 9,
-    name: 'Flat Boy',
-    // category: ,
-    // location: ,
-    // address: ,
-    // phone: ,
-    // website: ,
-    // recOne: ,
-    // recTwo: ,
-    // notes: ,
-  },
+  // {
+  // id: 9,
+  // name: 'Flat Boy',
+  // category: ,
+  // location: ,
+  // address: ,
+  // phone: ,
+  // website: ,
+  // recOne: ,
+  // recTwo: ,
+  // notes: ,
+  // },
 
   // Cafe
 
@@ -596,20 +588,20 @@ const restaurants = [
       '<ul><li>Hands down the best ramen in the city.</li><li>Line-ups on the weekend, expect to wait.</li><li>Closing hours vary, only open until broth runs out.</li></ul>',
   },
 
-  {
-    id: 34,
-    name: '',
-    category: [''],
-    location: '',
-    neighbourhood: '',
-    address: '<a href=""></a>',
-    phone: '',
-    website: '<a href="">Website</a>',
-    price: '',
-    recOne: '',
-    recTwo: '',
-    notes: '<ul><li></li></ul>',
-  },
+  // {
+  // id: 34,
+  // name: '',
+  // category: [''],
+  // location: '',
+  // neighbourhood: '',
+  // address: '<a href=""></a>',
+  // phone: '',
+  // website: '<a href="">Website</a>',
+  // price: '',
+  // recOne: '',
+  // recTwo: '',
+  // notes: '<ul><li></li></ul>',
+  // },
 
   // Korean
   {
@@ -725,7 +717,7 @@ const restaurants = [
   {
     id: 40,
     name: 'Sunbake Pita',
-    category: 'Middle Eastern',
+    category: ['Middle Eastern'],
     location: 'North',
     neighbourhood: 'Rosslyn',
     address: '10728 134 Ave NW',
@@ -982,3 +974,11 @@ const restaurants = [
 
   // Vietnamese
 ];
+
+// Key:
+// OS = Old Strathcona
+// OW = Oliver/Wîhkwêntôwin
+// WM = Westmount
+// MC
+
+export default restaurants;

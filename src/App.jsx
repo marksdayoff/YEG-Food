@@ -6,7 +6,7 @@ import { getFilteredRestaurants } from './js/utils';
 
 function App() {
   const [filters, setFilters] = useState({
-    cuisine: '',
+    category: '',
     price: '',
     location: '',
   });
@@ -18,21 +18,33 @@ function App() {
     }));
   }
 
-  const cuisineOptions = [...new Set(restaurants.map((r) => r.cuisine))];
-  const priceOptions = [...new Set(restaurants.map((r) => r.price))];
-  const locationOptions = [...new Set(restaurants.map((r) => r.location))];
+  const categoryOptions = [...new Set(restaurants.flatMap((r) => r.category))];
+
+  // const priceOptions = [...new Set(restaurants.map((r) => r.price))];
+  const priceOptions = [
+    ...new Set(restaurants.map((r) => r.price).filter(Boolean)),
+  ];
+
+  const locationOptions = [...new Set(restaurants.flatMap((r) => r.location))];
 
   const filteredRestaurants = getFilteredRestaurants(restaurants, filters);
+
+  console.log('restaurants:', restaurants);
+  console.log('restaurants.length:', restaurants.length);
+  console.log('filters:', filters);
+  console.log('filteredRestaurants:', filteredRestaurants);
 
   return (
     <div className='app'>
       <Filters
         filters={filters}
         onFilterChange={handleFilterChange}
-        cuisineOptions={cuisineOptions}
+        categoryOptions={categoryOptions}
         priceOptions={priceOptions}
         locationOptions={locationOptions}
-      ></Filters>
+      />
+
+      <RestaurantList restaurants={filteredRestaurants} />
     </div>
   );
 }

@@ -1,21 +1,21 @@
 function Filters({
   filters,
   onFilterChange,
-  cuisineOptions,
+  categoryOptions,
   priceOptions,
   locationOptions,
 }) {
   return (
     <div className='filters'>
-      {/* Cuisine Filter */}
+      {/* category Filter */}
       <select
-        value={filters.cuisine}
-        onChange={(e) => onFilterChange('cuisine', e.target.value)}
+        value={filters.category}
+        onChange={(e) => onFilterChange('category', e.target.value)}
       >
-        <option value=''>All Cuisines</option>
-        {cuisineOptions.map((cuisine) => (
-          <option key={cuisine} value={cuisine}>
-            {cuisine}
+        <option value=''>All Categorys</option>
+        {categoryOptions.map((category) => (
+          <option key={category} value={category}>
+            {category}
           </option>
         ))}
       </select>
@@ -27,7 +27,7 @@ function Filters({
       >
         <option value=''>All Prices</option>
         {priceOptions.map((price) => (
-          <option ley={price} value={price}>
+          <option key={price} value={price}>
             {price}
           </option>
         ))}
