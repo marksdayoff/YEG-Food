@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Filters from './components/Filters';
 import RestaurantList from './components/RestaurantList';
 import restaurants from './js/restaurants';
-import { getFilteredRestaurants } from './js/utils';
+import { getFilteredRestaurants, shuffleArray } from './js/utils';
 
 function App() {
+  const [shuffledRestaurants] = useState(() => shuffleArray(restaurants));
   const [filters, setFilters] = useState({
     category: '',
     price: '',
@@ -18,16 +19,20 @@ function App() {
     }));
   }
 
-  const categoryOptions = [...new Set(restaurants.flatMap((r) => r.category))];
-
-  // const priceOptions = [...new Set(restaurants.map((r) => r.price))];
+  const categoryOptions = [
+    ...new Set(restaurants.flatMap((r) => r.category)),
+  ].sort();
   const priceOptions = [
-    ...new Set(restaurants.map((r) => r.price).filter(Boolean)),
+    ...new Set(restaurants.flatMap((r) => r.price).filter(Boolean)),
   ];
+  const locationOptions = [
+    ...new Set(restaurants.flatMap((r) => r.location)),
+  ].sort();
 
-  const locationOptions = [...new Set(restaurants.flatMap((r) => r.location))];
-
-  const filteredRestaurants = getFilteredRestaurants(restaurants, filters);
+  const filteredRestaurants = getFilteredRestaurants(
+    shuffledRestaurants,
+    filters,
+  );
 
   console.log('restaurants:', restaurants);
   console.log('restaurants.length:', restaurants.length);
