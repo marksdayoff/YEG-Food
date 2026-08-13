@@ -22,9 +22,9 @@ export const restaurants = [
     location: 'Oliver/Wîhkwêntôwin',
     address: '10750 124 St, Edmonton, AB T5M 0H1',
     phone: '(780) 452-3393',
-    website: 'https://www.tiramisubistro.ca/',
+    website: <a href='https://www.tiramisubistro.ca/'>Website</a>,
     recOne: 'Cinnamon Buns',
-    // recTwo: null,
+    // recTwo: ,
     notes: 'The cinnamon buns are not cheap, but they are completely worth it.',
   },
 
@@ -36,8 +36,8 @@ export const restaurants = [
     neighbourhood: 'OW',
     address: '<a href=""></a>',
     phone: '',
-    website: '<a href="">Website</a>',
-    price: '',
+    website: <a href=''>Website</a>,
+    price: '$$',
     recOne: '',
     recTwo: '',
     notes: '<ul><li></li></ul>',
@@ -52,7 +52,7 @@ export const restaurants = [
     location: 'OS',
     address: '8216 104 St NW, Edmonton, AB T6E 4E5',
     phone: '(587) 520-6338',
-    website: 'meatfordinner.com',
+    website: '<a href="meatfordinner.com">Website</a>',
     // recOne: rec,
     // recTwo: rec,
     notes:
@@ -99,7 +99,7 @@ export const restaurants = [
     location: 'OW',
     address: '12021 102 Ave #105, Edmonton, AB T5K 0R8',
     phone: '(587) 590-9973',
-    website: 'https://www.oddcompany.ca/',
+    website: <a href='https://www.oddcompany.ca/'>Website</a>,
     recOne: 'Coconut Passionfruit Sour',
     recTwo: 'Cheeseburger',
     notes:
@@ -110,7 +110,7 @@ export const restaurants = [
 
   {
     id: 8,
-    name: 'Fox Burger',
+    name: 'Fox Burger Highlands',
     category: ['Burgers'],
     location: 'North',
     address: '6423 112 Ave NW, Edmonton, AB T5W 0N9',
@@ -153,30 +153,12 @@ export const restaurants = [
 
   {
     id: 11,
-    name: 'The Colombian',
+    name: 'The Colombian Glenora',
     category: ['Cafe'],
-    location: ['West', 'OS', 'South'],
-    locations: [
-      {
-        location: 'WM',
-        neighbourhood: 'Glenora',
-        address: '#1, 10340-134 Street NW',
-        phone: '780-757-9195',
-      },
-      {
-        location: 'South',
-        neighbourhood: 'Mill Creek',
-        address: '8816-92 Street NW',
-        phone: '825-480-1787',
-      },
-      {
-        location: 'South',
-        neighbourhood: 'Parkallen',
-        address: '6529 111 Street NW',
-        phone: '587-520-4300',
-      },
-    ],
-    // phone: null,
+    location: ['West'],
+    neighbourhood: 'Glenora',
+    address: '#1, 10340-134 Street NW',
+    phone: '780-757-9195',
     website: 'https://thecolombian.ca/',
     recOne: 'Coffee',
     // recTwo: ,
@@ -186,24 +168,42 @@ export const restaurants = [
 
   {
     id: 12,
-    name: 'Square 1',
+    name: 'The Colombian Mill Creek',
     category: ['Cafe'],
-    location: ['West', 'South'],
-    address: [
-      {
-        location: 'West',
-        neighbourhood: 'Glenora',
-        address: '14055 West Block Dr NW Unit 140, Edmonton, AB T5N 1L8',
-        phone: '780-452-8511',
-      },
-      {
-        location: 'South',
-        neighbourhood: 'Fairway',
-        address: '15 Fairway Dr NW, Edmonton, AB T6J 2S6',
-        phone: '780-452-8511',
-      },
-    ],
-    // phone: null,
+    location: ['South'],
+    neighbourhood: 'Mill Creek',
+    address: '8816-92 Street NW',
+    phone: '825-480-1787',
+    website: 'https://thecolombian.ca/',
+    recOne: 'Coffee',
+    // recTwo: ,
+    notes:
+      'Best coffee in the city. Colombia is the country that made me fall in love with coffee. The owner is Colombian and imports beans directly from farms back home.',
+  },
+
+  {
+    id: 13,
+    name: 'The Colombian Parkallen',
+    category: ['Cafe'],
+    location: ['South'],
+    neighbourhood: 'Parkallen',
+    address: '6529 111 Street NW',
+    phone: '587-520-4300',
+    website: 'https://thecolombian.ca/',
+    recOne: 'Coffee',
+    // recTwo: ,
+    notes:
+      'Best coffee in the city. Colombia is the country that made me fall in love with coffee. The owner is Colombian and imports beans directly from farms back home.',
+  },
+
+  {
+    id: 14,
+    name: 'Square 1 Glenora',
+    category: ['Cafe'],
+    location: ['West'],
+    neighbourhood: 'Glenora',
+    address: '14055 West Block Dr NW Unit 140, Edmonton, AB T5N 1L8',
+    phone: '780-452-8511',
     website: 'https://www.square1coffee.ca/',
     recOne: 'Coffee',
     // recTwo: ,
@@ -212,7 +212,22 @@ export const restaurants = [
   },
 
   {
-    id: 13,
+    id: 15,
+    name: 'Square 1 South',
+    category: ['Cafe'],
+    location: ['South'],
+    neighbourhood: 'Fairway',
+    address: '15 Fairway Dr NW, Edmonton, AB T6J 2S6',
+    phone: '780-452-8511',
+    website: 'https://www.square1coffee.ca/',
+    recOne: 'Coffee',
+    // recTwo: ,
+    notes:
+      "<ul><li>Great Coffee.</li><li>Several other locations that I haven't visited.</li><li>South (Fairway) Location has a lot of cool stuff to buy.</li><li>Glenora location is my favourite office away from the office.</li></ul>",
+  },
+
+  {
+    id: 16,
     name: 'Little Brick',
     category: ['Cafe'],
     location: 'Central',
@@ -229,7 +244,7 @@ export const restaurants = [
 
   //Cajun
   {
-    id: 14,
+    id: 17,
     name: 'Da De O',
     category: ['Cajun'],
     location: 'OS',
@@ -246,7 +261,7 @@ export const restaurants = [
   // Canadian
 
   {
-    id: 15,
+    id: 18,
     name: 'Butternut Tree',
     category: ['Canadian', 'Bougie', 'Date Night'],
     location: 'Central',
@@ -261,7 +276,7 @@ export const restaurants = [
   },
 
   {
-    id: 16,
+    id: 19,
     name: 'Rge Rd',
     category: ['Canadian', 'Bougie', 'Date Night'],
     location: 'OW',
@@ -278,7 +293,7 @@ export const restaurants = [
   // Chinese
 
   {
-    id: 17,
+    id: 20,
     name: 'Lingnan',
     category: ['Chinese'],
     location: 'Downtown',
@@ -296,7 +311,7 @@ export const restaurants = [
   // Dutch
 
   {
-    id: 18,
+    id: 21,
     name: 'Dutch Delicious',
     category: ['Dutch', 'Groceries'],
     location: 'West',
@@ -307,14 +322,12 @@ export const restaurants = [
       'Dutch specialty store. Lots of cheese, pastries, and other imported snacks.',
   },
 
-  // Fillipino
-
-  // {name:'',category:'',location:'',address:'',phone:'',website:'',recOne:'',recTwo:'',notes:'',},
+  // Filipino
 
   // Gastropub
 
   {
-    id: 19,
+    id: 22,
     name: 'The Common',
     category: ['Gastropub'],
     location: 'Downtown',
@@ -329,7 +342,7 @@ export const restaurants = [
   },
 
   {
-    id: 20,
+    id: 23,
     name: 'Otto',
     category: ['Gastropub', 'German'],
     location: 'North',
@@ -344,7 +357,7 @@ export const restaurants = [
   },
 
   {
-    id: 21,
+    id: 24,
     name: 'Three Vikings',
     category: ['Gastropub', 'Danish'],
     categoryAlt: 'Danish',
@@ -354,13 +367,13 @@ export const restaurants = [
     phone: '780-249-6302',
     website: 'https://www.threevikings.ca/',
     price: '$$',
-    recOne: 'FILL',
-    recTwo: 'FILL',
+    // recOne: 'FILL',
+    // recTwo: 'FILL',
     notes: 'Underrated spot on 124th, one of the best food pubs in town.',
   },
 
   {
-    id: 22,
+    id: 25,
     name: 'Red Star',
     category: ['Gastropub'],
     location: 'Downtown',
@@ -369,41 +382,46 @@ export const restaurants = [
     phone: '780-428-0825',
     website: 'https://redstarpub.ca/',
     price: '$$',
-    recOne: '',
-    recTwo: '',
+    // recOne: '',
+    // recTwo: '',
     notes: '',
   },
 
   // Indian
   {
-    id: 23,
+    id: 26,
     name: 'Remedy Cafe',
     category: ['Indian', 'Cafe'],
-    location: ['Central', 'South'],
-    locations: [
-      {
-        location: 'South',
-        neighbourhood: 'OS',
-        address: '8631 – 109 Street',
-        phone: '780-433-3096',
-      },
-      {
-        location: 'West',
-        neighbourhood: 'OW',
-        address: '10310 – 124 Street',
-        phone: '780-705-4464',
-      },
-    ],
+    location: ['South'],
+    neighbourhood: 'OS',
+    address: '8631 – 109 Street',
+    phone: '780-433-3096',
     website: 'https://www.remedycafe.ca/',
     price: '$$',
     recOne: 'Chicken Chana Wrap',
     recTwo: 'Chai Latte',
     notes:
-      '<ul><li>Hipster cafe thats serves modern Indian food.</li><li>There are several other locations but these are my top picks.</li></ul>',
+      '<ul><li>Hipster cafe thats serves modern Indian food.</li><li>This is the original location near the UofA, other locations are spread around the city.</li></ul>',
   },
 
   {
-    id: 24,
+    id: 27,
+    name: 'Remedy Cafe 124th',
+    category: ['Indian', 'Cafe'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '10310 – 124 Street',
+    phone: '780-705-4464',
+    website: 'https://www.remedycafe.ca/',
+    price: '$$',
+    recOne: 'Chicken Chana Wrap',
+    recTwo: 'Chai Latte',
+    notes:
+      '<ul><li>Hipster cafe thats serves modern Indian food.</li><li>There are other locations around the city.</li></ul>',
+  },
+
+  {
+    id: 28,
     name: 'Nosh Cafe',
     category: ['Indian'],
     location: 'Central',
@@ -420,7 +438,7 @@ export const restaurants = [
 
   // Indonesian
   {
-    id: 25,
+    id: 29,
     name: 'Padmanadi',
     category: ['Indonesian', 'Vegan'],
     location: 'Central',
@@ -437,7 +455,7 @@ export const restaurants = [
 
   // Italian
   {
-    id: 26,
+    id: 30,
     name: 'Bar Bricco',
     category: ['Italian', 'Bougie', 'Date Night'],
     location: 'Central',
@@ -453,7 +471,7 @@ export const restaurants = [
   },
 
   {
-    id: 27,
+    id: 31,
     name: 'Va!',
     category: ['Italian', 'Cafe'],
     location: 'Central',
@@ -469,7 +487,7 @@ export const restaurants = [
   },
 
   {
-    id: 28,
+    id: 32,
     name: 'Olia',
     category: ['Italian', 'Bougie', 'Date Night'],
     location: 'Central',
@@ -485,24 +503,29 @@ export const restaurants = [
   },
 
   {
-    id: 29,
+    id: 33,
     name: 'Italian Centre',
     category: ['Italian', 'Cafe'],
     location: ['Central', 'South'],
-    locations: [
-      {
-        location: 'Central',
-        neighbourhood: 'Little Italy',
-        address: '10878 95 Street',
-        phone: '587-687-3977',
-      },
-      {
-        location: 'South',
-        neighbourhood: 'Empire Park',
-        address: '5028 104a Street',
-        phone: '587 687 3977',
-      },
-    ],
+    neighbourhood: 'Little Italy',
+    address: '10878 95 Street',
+    phone: '587-687-3977',
+    website: 'https://www.italiancentre.ca/',
+    price: '$',
+    recOne: 'Panino',
+    recTwo: '',
+    notes:
+      '<ul><li>The panino is a right of passage for Edmontonians. This sandwich is ledgendary.</li><li>Produce is high quality and it has the best deli counter in town.</li><li>Other locations in Sherwood Park and the West End.</li></ul>',
+  },
+
+  {
+    id: 34,
+    name: 'Italian Centre South',
+    category: ['Italian'],
+    location: ['South'],
+    neighbourhood: 'Pleasantview',
+    address: '5028 104a Street',
+    phone: '587 687 3977',
     website: 'https://www.italiancentre.ca/',
     price: '$',
     recOne: 'Panino',
@@ -513,7 +536,7 @@ export const restaurants = [
 
   // Japanese
   {
-    id: 30,
+    id: 35,
     name: 'Izakaya Tomo',
     category: ['Japanese'],
     location: 'South',
@@ -529,7 +552,7 @@ export const restaurants = [
   },
 
   {
-    id: 31,
+    id: 36,
     name: 'Dorinku Tokyo',
     category: ['Japanese'],
     location: 'South',
@@ -545,24 +568,13 @@ export const restaurants = [
   },
 
   {
-    id: 32,
-    name: 'Japonais',
+    id: 37,
+    name: 'Japonais Bistro',
     category: ['Japanese'],
     location: 'Central',
-    locations: [
-      {
-        location: 'Central',
-        neighbourhood: 'OW',
-        address: '11806 Jasper Ave',
-        phone: '780-760-1616',
-      },
-      {
-        location: 'West',
-        neighbourhood: 'Windermere',
-        address: '6138 Currents Dr NW',
-        phone: '780-334-1717',
-      },
-    ],
+    neighbourhood: 'OW',
+    address: '11806 Jasper Ave',
+    phone: '780-760-1616',
     website: 'https://japonaisbistro.ca/',
     price: '$$-$$$',
     recOne: 'Bento Box',
@@ -572,7 +584,23 @@ export const restaurants = [
   },
 
   {
-    id: 33,
+    id: 38,
+    name: 'Japonais',
+    category: ['Japanese', 'Sushi'],
+    location: 'West',
+    neighbourhood: 'Windermere',
+    address: '6138 Currents Dr NW',
+    phone: '780-334-1717',
+    website: 'https://japonaisbistro.ca/',
+    price: '$$-$$$',
+    recOne: 'Bento Box',
+    recTwo: 'Sashimi',
+    notes:
+      '<ul><li>One of the top spots for higher end sushi.</li><li>Lunch Bentos are a killer deal.</li></ul>',
+  },
+
+  {
+    id: 39,
     name: 'Tokiwa',
     category: ['Japanese'],
     location: 'Central',
@@ -588,41 +616,15 @@ export const restaurants = [
       '<ul><li>Hands down the best ramen in the city.</li><li>Line-ups on the weekend, expect to wait.</li><li>Closing hours vary, only open until broth runs out.</li></ul>',
   },
 
-  // {
-  // id: 34,
-  // name: '',
-  // category: [''],
-  // location: '',
-  // neighbourhood: '',
-  // address: '<a href=""></a>',
-  // phone: '',
-  // website: '<a href="">Website</a>',
-  // price: '',
-  // recOne: '',
-  // recTwo: '',
-  // notes: '<ul><li></li></ul>',
-  // },
-
   // Korean
   {
-    id: 35,
+    id: 40,
     name: 'Seoul Fried Chicken',
     category: ['Korean'],
-    location: ['Central', 'South'],
-    locations: [
-      {
-        location: 'Central',
-        neighbourhood: 'Downtown',
-        address: '#101 10145 104 St',
-        phone: '780-249-2096',
-      },
-      {
-        location: 'South',
-        neighbourhood: 'OS',
-        address: '7904b 104 St',
-        phone: '780-761-3616',
-      },
-    ],
+    location: ['Central'],
+    neighbourhood: 'Downtown',
+    address: '#101 10145 104 St',
+    phone: '780-249-2096',
     website: 'https://seoulfried.com/',
     price: '$$',
     recOne: 'Garlic Soy Chicken',
@@ -632,7 +634,23 @@ export const restaurants = [
   },
 
   {
-    id: 36,
+    id: 41,
+    name: 'Seoul Fried Chicken',
+    category: ['Korean'],
+    location: ['South'],
+    neighbourhood: 'OS',
+    address: '7904b 104 St',
+    phone: '780-761-3616',
+    website: 'https://seoulfried.com/',
+    price: '$$',
+    recOne: 'Garlic Soy Chicken',
+    recTwo: 'Gochujang Caramel Chicken',
+    notes:
+      '<ul><li>This place will change the way you think about fried chicken.</li></ul>',
+  },
+
+  {
+    id: 42,
     name: 'Buok',
     category: ['Korean'],
     location: 'Central',
@@ -648,8 +666,8 @@ export const restaurants = [
 
   // Latin & Meixcan
   {
-    id: 37,
-    name: 'Paraiso',
+    id: 43,
+    name: 'Paraiso Tropical',
     category: [
       'Latin',
       'Venezuelan',
@@ -658,21 +676,10 @@ export const restaurants = [
       'Guatelmalan',
       'Mexican',
     ],
-    location: ['Central', 'South'],
-    locations: [
-      {
-        location: 'Central',
-        neighbourhood: 'OW',
-        address: '9136-118 Avenue NW',
-        phone: '780-479-6000',
-      },
-      {
-        location: 'South',
-        neighbourhood: 'Allendale',
-        address: '6926-104 Street NW',
-        phone: '780-705-9711',
-      },
-    ],
+    location: ['Central'],
+    neighbourhood: 'Alberta Avenue',
+    address: '9136-118 Avenue NW',
+    phone: '780-479-6000',
     website: 'paraisotropical.ca/',
     price: '$',
     recOne: 'Pozole',
@@ -682,7 +689,30 @@ export const restaurants = [
   },
 
   {
-    id: 38,
+    id: 44,
+    name: 'Paraiso South',
+    category: [
+      'Latin',
+      'Venezuelan',
+      'Colombian',
+      'Salvadorian',
+      'Guatelmalan',
+      'Mexican',
+    ],
+    location: ['South'],
+    neighbourhood: 'Allendale',
+    address: '6926-104 Street NW',
+    phone: '780-705-9711',
+    website: 'paraisotropical.ca/',
+    price: '$',
+    recOne: 'Pozole',
+    recTwo: 'Yuca con Chicharron',
+    notes:
+      "<ul><li>Incredible Latin grocery store with a small takeout kitchen.</li>It's the only place in town to find Mexican Pozole</ul>",
+  },
+
+  {
+    id: 45,
     name: 'Avila Arepa',
     category: ['Latin', 'Guatemalan'],
     location: 'South',
@@ -700,7 +730,7 @@ export const restaurants = [
   // Middle Eastern & Persian
 
   {
-    id: 39,
+    id: 46,
     name: 'Al Salam Bakery',
     category: ['Middle Eastern'],
     location: 'South',
@@ -715,7 +745,7 @@ export const restaurants = [
   },
 
   {
-    id: 40,
+    id: 47,
     name: 'Sunbake Pita',
     category: ['Middle Eastern'],
     location: 'North',
@@ -731,7 +761,7 @@ export const restaurants = [
   },
 
   {
-    id: 41,
+    id: 48,
     name: 'Shaheen Grocery',
     category: ['Afghan', 'Iranian'],
     location: 'South',
@@ -747,7 +777,7 @@ export const restaurants = [
   },
   // Pizza
   {
-    id: 42,
+    id: 49,
     name: 'Capital Pizza',
     category: ['Pizza', 'Italian'],
     location: 'North',
@@ -763,7 +793,7 @@ export const restaurants = [
       '<ul><li>Old school "Steak and Pizza" joint. I\'ve been eating this pizza since I was a child.</li></ul>',
   },
   {
-    id: 43,
+    id: 50,
     name: 'Dallas Pizza',
     category: ['Pizza'],
     location: 'East',
@@ -779,7 +809,7 @@ export const restaurants = [
       '<ul><li>Solid quality pizza from a typical "Steak and Pizza" restaurant. Second to Capital Pizza in this style of pie.</li></ul>',
   },
   {
-    id: 44,
+    id: 51,
     name: 'High Dough',
     category: ['Pizza'],
     location: 'South',
@@ -796,7 +826,7 @@ export const restaurants = [
   },
 
   {
-    id: 45,
+    id: 52,
     name: "Fn'Za",
     category: ['Pizza'],
     location: 'Central',
@@ -813,7 +843,7 @@ export const restaurants = [
   },
   // Portuguese
   {
-    id: 46,
+    id: 53,
     name: 'Sabor',
     category: ['Portuguese', 'Seafood', 'Mediterranean'],
     location: 'Central',
@@ -831,7 +861,7 @@ export const restaurants = [
   // Pub
 
   {
-    id: 47,
+    id: 54,
     name: 'Sherlock Holmes',
     category: ['Pub'],
     location: 'Central',
@@ -850,28 +880,14 @@ export const restaurants = [
   // Sandwiches
 
   {
-    id: 48,
-    name: 'Farrow',
+    id: 55,
+    name: 'Farrow Garneau',
     category: ['Sandwiches'],
-    location: ['South', 'Central'],
-    locations: [
-      {
-        location: 'South',
-        neighbourhood: 'Garneau',
-        address:
-          '<a href="https://www.google.com/maps/place/Farrow+Garneau/@53.5206409,-113.5514175,14z/data=!3m1!5s0x53a0221c0cee119d:0x4ae1ea34ea82a9ac!4m10!1m2!2m1!1sfarrow!3m6!1s0x53a021ff97bfffff:0x418cfe15f6adaa0c!8m2!3d53.5206409!4d-113.5123616!15sCgZmYXJyb3ciA4gBAVoIIgZmYXJyb3eSAQ1zYW5kd2ljaF9zaG9w4AEA!16s%2Fg%2F1pzsyx8vc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">8422 109 St NW</a>',
-        phone: '+17807574160',
-      },
-
-      {
-        location: 'Central',
-        neighbourhood: 'OW',
-        address:
-          '<a href="https://www.google.com/maps/place/Farrow+Garneau/@53.5206409,-113.5514175,14z/data=!3m1!5s0x53a0221c0cee119d:0x4ae1ea34ea82a9ac!4m10!1m2!2m1!1sfarrow!3m6!1s0x53a021ff97bfffff:0x418cfe15f6adaa0c!8m2!3d53.5206409!4d-113.5123616!15sCgZmYXJyb3ciA4gBAVoIIgZmYXJyb3eSAQ1zYW5kd2ljaF9zaG9w4AEA!16s%2Fg%2F1pzsyx8vc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">#6, 10240 124 St</a>',
-        phone: '+17807574160',
-      },
-    ],
-
+    location: ['South'],
+    neighbourhood: 'Garneau',
+    address:
+      '<a href="https://www.google.com/maps/place/Farrow+Garneau/@53.5206409,-113.5514175,14z/data=!3m1!5s0x53a0221c0cee119d:0x4ae1ea34ea82a9ac!4m10!1m2!2m1!1sfarrow!3m6!1s0x53a021ff97bfffff:0x418cfe15f6adaa0c!8m2!3d53.5206409!4d-113.5123616!15sCgZmYXJyb3ciA4gBAVoIIgZmYXJyb3eSAQ1zYW5kd2ljaF9zaG9w4AEA!16s%2Fg%2F1pzsyx8vc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">8422 109 St NW</a>',
+    phone: '+17807574160',
     website: '<a href="https://farrowsandwiches.ca/">Website</a>',
     price: '$',
     recOne: 'The Grick',
@@ -881,7 +897,24 @@ export const restaurants = [
   },
 
   {
-    id: 49,
+    id: 56,
+    name: 'Farrow 124th',
+    category: ['Sandwiches'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address:
+      '<a href="https://www.google.com/maps/place/Farrow+Garneau/@53.5206409,-113.5514175,14z/data=!3m1!5s0x53a0221c0cee119d:0x4ae1ea34ea82a9ac!4m10!1m2!2m1!1sfarrow!3m6!1s0x53a021ff97bfffff:0x418cfe15f6adaa0c!8m2!3d53.5206409!4d-113.5123616!15sCgZmYXJyb3ciA4gBAVoIIgZmYXJyb3eSAQ1zYW5kd2ljaF9zaG9w4AEA!16s%2Fg%2F1pzsyx8vc?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">#6, 10240 124 St</a>',
+    phone: '+17807574160',
+    website: '<a href="https://farrowsandwiches.ca/">Website</a>',
+    price: '$',
+    recOne: 'The Grick',
+    recTwo: '',
+    notes:
+      "<ul><li>You won't find a better breakfast sandwich than the Grick.</li><li>Other locations downtown and in Ritchie</li></ul>",
+  },
+
+  {
+    id: 57,
     name: 'Pals',
     category: ['Sandwiches'],
     location: 'Sotuh',
@@ -898,7 +931,7 @@ export const restaurants = [
   },
 
   {
-    id: 50,
+    id: 58,
     name: 'Fifendekel',
     category: ['Sandwiches'],
     location: 'South',
@@ -916,38 +949,54 @@ export const restaurants = [
 
   // Spanish
   {
-    id: 51,
-    name: 'Bodega',
+    id: 59,
+    name: 'Bodega Downtown',
     category: ['Spanish'],
-    location: ['North', 'Central'],
-    locations: [
-      {
-        location: 'North',
-        neighbourhood: 'Highlands',
-        address:
-          '<a href=-"https://www.google.com/maps/place/Bodega+Highlands/@53.5379317,-113.515406,11151m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a022d8b5660b1d:0x5739e7f250d88ab9!8m2!3d53.564646!4d-113.4381348!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJzNVYyTXpSbEpVVjBaYVZsWTVWMU5GV25OVFZVNWhUVEJzVTJGV1JSQULgAQD6AQQIGBBH!16s%2Fg%2F11c4bg6yx8?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">6509 112 Ave NW</a>',
-        phone: '780-757-0137',
-      },
-      {
-        location: 'Central',
-        neighbourhood: 'Downtown',
-        address:
-          '<a href="https://www.google.com/maps/place/@53.5379317,-113.515406,11151m/data=!3m2!1e3!5s0x53a022489237a1df:0x454a1ed829979579!4m10!1m2!2m1!1sbodega!3m6!1s0x53a0224890f2d03b:0xa701382f02a061a6!8m2!3d53.5434186!4d-113.497686!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwV2JrNUlaSE5WVkVJeFZtcG9NVnB1VlRSV2FsWjBXbFZTVkZGWVl4QULgAQD6AQQIABAx!16s%2Fg%2F11b6q8z78s?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10220 103 St NW</a>',
-        phone: '780-757-1114',
-      },
-      {
-        location: 'Central',
-        neighbourhood: 'OW',
-        address:
-          '<a href="https://www.google.com/maps/place/Bodega+124+Street/@53.5468056,-113.6131899,11149m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a023d4bd68259f:0xc17e09eacf95536!8m2!3d53.5468056!4d-113.5369722!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEKcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOQ1owd3RNVTluRUFF4AEA-gEFCKwEEC0!16s%2Fg%2F11f48js5bn?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">12417 Stony Plain Rd</a>',
-        phone: '780-250-6066',
-      },
-    ],
+    location: ['Central'],
+    neighbourhood: 'Downtown',
+    address:
+      '<a href="https://www.google.com/maps/place/@53.5379317,-113.515406,11151m/data=!3m2!1e3!5s0x53a022489237a1df:0x454a1ed829979579!4m10!1m2!2m1!1sbodega!3m6!1s0x53a0224890f2d03b:0xa701382f02a061a6!8m2!3d53.5434186!4d-113.497686!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwV2JrNUlaSE5WVkVJeFZtcG9NVnB1VlRSV2FsWjBXbFZTVkZGWVl4QULgAQD6AQQIABAx!16s%2Fg%2F11b6q8z78s?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">10220 103 St NW</a>',
+    phone: '780-757-1114',
+
     website: '<a href="https://www.bodegabysabor.ca/">Website</a>',
     price: '$$$',
     recOne: '',
     recTwo: '',
+    notes:
+      '<ul><li>Spanish tapas. Small plates, best shared by a group of people.</li></ul>',
+  },
 
+  {
+    id: 60,
+    name: 'Bodega 124th',
+    category: ['Spanish'],
+    location: ['Central'],
+    location: 'Central',
+    neighbourhood: 'OW',
+    address:
+      '<a href="https://www.google.com/maps/place/Bodega+124+Street/@53.5468056,-113.6131899,11149m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a023d4bd68259f:0xc17e09eacf95536!8m2!3d53.5468056!4d-113.5369722!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEKcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOQ1owd3RNVTluRUFF4AEA-gEFCKwEEC0!16s%2Fg%2F11f48js5bn?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">12417 Stony Plain Rd</a>',
+    phone: '780-250-6066',
+    website: '<a href="https://www.bodegabysabor.ca/">Website</a>',
+    price: '$$$',
+    recOne: '',
+    recTwo: '',
+    notes:
+      '<ul><li>Spanish tapas. Small plates, best shared by a group of people.</li></ul>',
+  },
+
+  {
+    id: 61,
+    name: 'Bodega Highlands',
+    category: ['Spanish'],
+    location: ['North'],
+    neighbourhood: 'Highlands',
+    address:
+      '<a href=-"https://www.google.com/maps/place/Bodega+Highlands/@53.5379317,-113.515406,11151m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a022d8b5660b1d:0x5739e7f250d88ab9!8m2!3d53.564646!4d-113.4381348!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJzNVYyTXpSbEpVVjBaYVZsWTVWMU5GV25OVFZVNWhUVEJzVTJGV1JSQULgAQD6AQQIGBBH!16s%2Fg%2F11c4bg6yx8?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">6509 112 Ave NW</a>',
+    phone: '780-757-0137',
+    website: '<a href="https://www.bodegabysabor.ca/">Website</a>',
+    price: '$$$',
+    recOne: '',
+    recTwo: '',
     notes:
       '<ul><li>Spanish tapas. Small plates, best shared by a group of people.</li></ul>',
   },
@@ -955,7 +1004,7 @@ export const restaurants = [
   // Thai
 
   {
-    id: 52,
+    id: 62,
     name: 'Numchok Wilai',
     category: ['Thai'],
     location: 'Central',
@@ -969,12 +1018,7 @@ export const restaurants = [
     recTwo: '',
     notes: '<ul><li></li></ul>',
   },
-
-  // Vegan
-
-  // Vietnamese
 ];
-
 // Key:
 // OS = Old Strathcona
 // OW = Oliver/Wîhkwêntôwin
