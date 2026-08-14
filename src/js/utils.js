@@ -4,7 +4,7 @@ export function getFilteredRestaurants(restaurants, filters) {
     const matchesCategory =
       filters.category === '' || restaurant.category.includes(filters.category);
     const matchesPrice =
-      filters.price === '' || restaurant.price === filters.price;
+      filters.price === '' || restaurant.price.includes(filters.price);
     const matchesLocation =
       filters.location === '' || restaurant.location === filters.location;
 

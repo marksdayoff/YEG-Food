@@ -358,7 +358,7 @@ export const restaurants = [
     name: 'The Common',
     category: ['Gastropub'],
     location: ['Central'],
-    neighbourhood: 'Westmount',
+    neighbourhood: 'OW',
     address: '9910 109 St NW',
     phone: '780-452-7333',
     website: 'https://www.thecommon.ca/',
@@ -822,7 +822,7 @@ export const restaurants = [
     id: 49,
     name: 'Capital Pizza',
     category: ['Pizza', 'Italian'],
-    location: ['North'],
+    location: [' North'],
     neighbourhood: 'Londonderry',
     address: '7640 144 Ave NW',
     mapUrl:
