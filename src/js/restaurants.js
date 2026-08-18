@@ -121,6 +121,26 @@ export const restaurants = [
     // notes: '',
   },
 
+  {
+    id: 67,
+    name: "Hap's",
+    category: ['Breakfast'],
+    location: ['West'],
+    neighbourhood: 'Britannia Youngstown',
+    address: '16060 Stony Plain Rd',
+    city: 'Edmonton',
+    mapUrl:
+      "https://www.google.com/maps/place/Hap's+Hungry+House/@53.5412377,-113.6019235,16.07z/data=!4m6!3m5!1s0x53a02105752a28af:0xea6e51a74ca1aea7!8m2!3d53.5416619!4d-113.5986637!16s%2Fg%2F1vb9cr57?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    phone: '780-483-2288',
+    website: 'https://www.hapshungryhouse.ca/',
+    instagram: 'https://www.instagram.com/hapshungryhouse/',
+    price: ['$', '$$'],
+    recs: ['Eggs Benedict'],
+    notes: [
+      'Not fancy, but a solid choice for cheap and tasty breakfast. This is the place you go to cure a hangover.',
+    ],
+  },
+
   // Breweries
 
   {
@@ -321,6 +341,42 @@ export const restaurants = [
     // notes: '',
   },
 
+  {
+    id: 65,
+    name: 'Felice Cafe',
+    category: ['Cafe'],
+    location: ['Central'],
+    neighbourhood: '',
+    address: '10930 84 Street NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Felice+Cafe/@53.5565845,-113.4734576,17.38z/data=!4m6!3m5!1s0x53a0234c0db10939:0xb61fd69dbdf1ea0b!8m2!3d53.5566129!4d-113.4716802!16s%2Fg%2F11pzdy729q?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    // phone: '',
+    website: 'https://www.felicecafe.ca/',
+    instagram: 'https://www.instagram.com/felicecafeyeg',
+    price: ['$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
+  {
+    id: 69,
+    name: 'Iconoclast',
+    category: ['Cafe'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '#103, 12021 102 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Iconoclast+Coffee+Roasters/@53.5427993,-113.5321855,18.06z/data=!4m10!1m3!11m2!2shQLWEvrj8-nEq6P77NxI7Q3beqahCw!3e3!3m5!1s0x53a023cd4d00e2d5:0x18da8a62e4c53c97!8m2!3d53.5428382!4d-113.5302693!16s%2Fg%2F11bw77v9md?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
+    // phone: '',
+    website: 'https://iconoclastcoffee.com/',
+    instagram: 'https://www.instagram.com/iconoclastcoffee/',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
   //Cajun
   {
     id: 17,
@@ -384,6 +440,26 @@ export const restaurants = [
       'Rotating menu, changing regularly. - Seating at the bar is often available for walk-ins. ',
   },
 
+  {
+    id: 68,
+    name: 'Happy & Olive',
+    category: ['Bougie'],
+    location: ['West'],
+    neighbourhood: 'Crestwood',
+    address: '9640 142 St NW, Edmonton, AB T5N 4B2',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.ca/maps/place/Happy+and+Olive/@53.5338237,-113.5695741,17.01z/data=!4m6!3m5!1s0x53a02141cf085b67:0x63b8420acfca5d22!8m2!3d53.5338314!4d-113.5669808!16s%2Fg%2F11kjjp4f8y?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(825) 401-4958',
+    website: 'http://happyandolive.ca/',
+    instagram: 'https://www.instagram.com/happyandolive/',
+    price: ['$$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
+  // Casual
+
   // Chinese
 
   {
@@ -406,6 +482,59 @@ export const restaurants = [
   },
 
   // Dessert
+
+  {
+    id: 70,
+    name: 'Kind Ice Cream Highlands',
+    category: ['Dessert'],
+    location: ['North'],
+    neighbourhood: 'Highlands',
+    address: '6507 112 Ave NW, Edmonton, AB T5W 0P1',
+    city: 'Edmonton',
+    mapUrl: '6507 112 Ave NW',
+    phone: '(780) 474-5547',
+    website: 'http://kindicecream.ca/',
+    instagram: 'https://www.instagram.com/kindicecream/',
+    price: ['$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
+  {
+    id: 72,
+    name: 'Kind Ice Cream South',
+    category: ['Dessert'],
+    location: ['South'],
+    neighbourhood: 'Richie',
+    address: '9551 76 Ave NW, Edmonton, AB T6C 0K1',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.ca/maps/place/Kind+Ice+Cream/@53.5108834,-113.4774863,16.34z/data=!3m1!5s0x53a018a0012c5317:0x395885d421b46d43!4m6!3m5!1s0x53a0194a5ace5a99:0xaf89676db8fdb27a!8m2!3d53.512138!4d-113.476085!16s%2Fg%2F11h0_6c84z?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 474-5547',
+    website: 'http://kindicecream.ca/',
+    instagram: 'https://www.instagram.com/kindicecream/',
+    price: ['$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
+  {
+    id: 73,
+    name: 'Kind Ice Cream Downtown',
+    category: ['Dessert'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '12017 102 Ave NW, Edmonton, AB T5K 0R8',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.ca/maps/place/Kind+Ice+Cream/@53.5423654,-113.5267227,14.87z/data=!4m6!3m5!1s0x53a02349057b368b:0x51198763294b002f!8m2!3d53.5428341!4d-113.5299564!16s%2Fg%2F11ssg0k7c3?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '17805098746',
+    website: 'http://kindicecream.ca/',
+    instagram: 'https://www.instagram.com/kindicecream/',
+    price: ['$'],
+    recs: ['', ''],
+    notes: [''],
+  },
 
   // Dutch
 
@@ -939,6 +1068,24 @@ export const restaurants = [
       "Venezuelan joint on Whyte ave. I adore arepas and ate them all the time when I lived in Colombia. I don't know anywhere else in town that does them.",
   },
 
+  {
+    id: 64,
+    name: 'Calle Mexican',
+    category: ['Mexican'],
+    location: ['South'],
+    neighbourhood: 'OS',
+    address: '7704 104 Street NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Calle+M%C3%A9xico+Restaurant/@53.5134642,-113.5029536,17z/data=!3m1!4b1!4m6!3m5!1s0x53a0233c90c450db:0xa19458d153f8ea31!8m2!3d53.5134611!4d-113.4980827!16s%2Fg%2F11j4k0fp5p?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '825-512-5932',
+    website: 'https://callemexico.ca/',
+    instagram: 'https://www.instagram.com/callemexicorestaurant/',
+    price: ['$'],
+    recs: ['', ''],
+    notes: [''],
+  },
+
   // Middle Eastern & Persian
 
   {
@@ -1001,6 +1148,25 @@ export const restaurants = [
       "Top pick for me is the naan, but this isn't like Indian naan, this is huge and fluffy &mdash; almost like focaccia.",
     ],
   },
+
+  {
+    id: 71,
+    name: 'Lovesong',
+    category: ['Middle Eastern', 'Bistro'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '12015 102 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/lovesong.farm/@53.5428011,-113.5321488,18.08z/data=!4m10!1m3!11m2!2shQLWEvrj8-nEq6P77NxI7Q3beqahCw!3e3!3m5!1s0x53a023bdb59d9cd7:0x9cd76a4a585c7154!8m2!3d53.5426319!4d-113.5300675!16s%2Fg%2F11w30k457b?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
+    // phone: '',
+    website: 'https://lovesong.farm/',
+    instagram: 'https://www.instagram.com/lovesong.farm/',
+    price: ['$$', '$$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
   // Pizza
   {
     id: 49,
@@ -1291,6 +1457,44 @@ export const restaurants = [
     // recOne: '',
     // recTwo: '',
     // notes: '',
+  },
+
+  // Vietnamese
+
+  {
+    id: 63,
+    name: 'Banh Mi Day',
+    category: ['Vietnamese, Sandwiches'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '11765 Jasper Ave',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+Day/@53.540828,-113.5246112,664m/data=!3m1!1e3!4m6!3m5!1s0x53a023f36b40f389:0xfccd22913461fe81!8m2!3d53.5407644!4d-113.5244262!16s%2Fg%2F11tfdhhdvc?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '780-485-2802',
+    website: 'https://www.banhmiday.ca/',
+    instagram: 'https://www.instagram.com/banhmiday.edmonton',
+    price: ['$'],
+    recs: ['Beef Sate Banh Mi'],
+    notes: ['Best banh mi in Edmonton.'],
+  },
+
+  {
+    id: 66,
+    name: 'Golden Bird',
+    category: ['Vietnamese'],
+    location: ['Central'],
+    neighbourhood: 'Chinatown',
+    address: '10542 97 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Golden+Bird+Restaurant/@53.5496524,-113.4913873,17z/data=!3m1!4b1!4m6!3m5!1s0x53a02251f505c8cb:0x636870a874ef092f!8m2!3d53.5496492!4d-113.4888124!16s%2Fg%2F1ttq1ss9?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780)420-1612',
+    // website: '',
+    // instagram: '',
+    price: ['$'],
+    // recs: ['', ''],
+    // notes: [''],
   },
 ];
 // Key:
