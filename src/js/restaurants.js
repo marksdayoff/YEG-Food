@@ -141,6 +141,24 @@ export const restaurants = [
     ],
   },
 
+  {
+    id: 75,
+    name: 'OEB',
+    category: ['Breakfast'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '#56, 10240 124 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/OEB+Breakfast+Co./@53.5463202,-113.5385176,16.81z/data=!4m10!1m3!11m2!2shQLWEvrj8-nEq6P77NxI7Q3beqahCw!3e3!3m5!1s0x53a02316d51bfec9:0x4f60311b515c4c6a!8m2!3d53.5444633!4d-113.5361162!16s%2Fg%2F11fmvkm2f7?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '780-250-0788',
+    website: 'https://eatoeb.com/',
+    instagram: 'https://www.instagram.com/oeb_breakfast',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
   // Breweries
 
   {
@@ -460,6 +478,24 @@ export const restaurants = [
 
   // Casual
 
+  {
+    id: 74,
+    name: 'Next Act Pub',
+    category: ['Causal', 'Pub'],
+    location: ['South'],
+    neighbourhood: 'OS',
+    address: '8224 104 Street NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/The+Next+Act+Pub/@53.5188836,-113.4976654,20.38z/data=!4m6!3m5!1s0x53a0220fdc383f45:0x864af52f05d32f2e!8m2!3d53.5188398!4d-113.4978455!16s%2Fg%2F1vspr5c9?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '780-433-9345',
+    website: 'https://www.nextactpub.com/',
+    instagram: 'https://www.instagram.com/nextactpub',
+    price: ['$$'],
+    recs: ['Burger'],
+    // notes: [''],
+  },
+
   // Chinese
 
   {
@@ -532,8 +568,8 @@ export const restaurants = [
     website: 'http://kindicecream.ca/',
     instagram: 'https://www.instagram.com/kindicecream/',
     price: ['$'],
-    recs: ['', ''],
-    notes: [''],
+    // recs: ['', ''],
+    // notes: [''],
   },
 
   // Dutch
@@ -557,6 +593,26 @@ export const restaurants = [
   },
 
   // Filipino
+
+  // French
+
+  {
+    id: 75,
+    name: 'Partake',
+    category: ['French', 'Casual'],
+    location: ['Central'],
+    neighbourhood: 'OW',
+    address: '12431 102 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Partake/@53.5438631,-113.5387753,16.81z/data=!4m10!1m3!11m2!2shQLWEvrj8-nEq6P77NxI7Q3beqahCw!3e3!3m5!1s0x53a0234d9903af47:0x3b9f957ff3811d4!8m2!3d53.542742!4d-113.5373364!16s%2Fg%2F11gwmpn6vk?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
+    // phone: '',
+    website: 'https://www.ouipartake.com/',
+    instagram: 'https://www.instagram.com/ouipartake/',
+    price: ['$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
 
   // Gastropub
 
@@ -1495,6 +1551,24 @@ export const restaurants = [
     price: ['$'],
     // recs: ['', ''],
     // notes: [''],
+  },
+
+  {
+    id: 76,
+    name: 'Pho hoan pasteur',
+    category: ['Vietnamese'],
+    location: ['Central'],
+    neighbourhood: 'Kingsway',
+    address: '11443 Kingsway NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Pho+Hoan+Pasteur/@53.5623537,-113.5161973,16.33z/data=!4m6!3m5!1s0x53a023b9205fec85:0xabc9a172f2fee1de!8m2!3d53.5644934!4d-113.5194977!16s%2Fg%2F1tdd4y_2?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 761-1989',
+    website: 'https://www.phohoanpasteur.ca/',
+    instagram: 'https://www.instagram.com/phohoanpasteur',
+    price: ['$'],
+    recs: ['Pho Bo', 'Pho Ga'],
+    notes: ['Multiple locations, but the OG near Kingsway is my spot.'],
   },
 ];
 // Key:
