@@ -1,3 +1,5 @@
+// import './Filters.css';
+
 function Filters({
   filters,
   onFilterChange,
@@ -9,6 +11,7 @@ function Filters({
     <div className='filters'>
       {/* category Filter */}
       <select
+        className='select'
         value={filters.category}
         onChange={(e) => onFilterChange('category', e.target.value)}
       >

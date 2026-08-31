@@ -183,6 +183,27 @@ export const restaurants = [
       'Food menu is very limited. OS location has a much bigger menu, but I live downtown.',
   },
 
+  // British
+
+  {
+    id: 88,
+    name: "Brit's Fish and Chips",
+    category: ['British'],
+    location: ['South'],
+    neighbourhood: 'Argyyl',
+    address: '6940 77 St NW, Edmonton',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Brits+Fish+%26+Chips/@53.5065929,-113.4455634,310m/data=!3m1!1e3!4m6!3m5!1s0x53a0188f665cf7df:0x28d649c681f0a15!8m2!3d53.5065426!4d-113.4455295!16s%2Fg%2F1ty73yvb?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 485-1797',
+    tel: '',
+    website: 'https://britsfishandchipsab.com/',
+    // instagram: '',
+    price: [''],
+    recs: ['', ''],
+    notes: [''],
+  },
+
   // Burgers
 
   {
@@ -557,7 +578,24 @@ export const restaurants = [
     notes: "As far as Canadian-Chinese food goes, this is where it's at.",
   },
 
-  // {id: ,name:'Jumbo',category:[''],location:[''],neighbourhood:'',address:'', city: 'Edmonton',mapUrl: '',phone:'', tel: '',website:'',instagram: '',price:[''],recs: ['', ''],notes:[''],},
+  {
+    id: 85,
+    name: 'Jumbo Dim Sum',
+    category: ['Chinese'],
+    location: ['West'],
+    neighbourhood: '',
+    address: '10451 170 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Jumbo+Dim+Sum/@53.5484307,-113.6166547,17z/data=!3m1!4b1!4m6!3m5!1s0x53a0211ee86c5b41:0xf91740eb4ec810f6!8m2!3d53.5484275!4d-113.6140798!16s%2Fg%2F1q5bmtsym?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 481-3838',
+    tel: '+17804813838',
+    website: 'https://jumbodimsum.ca/',
+    // instagram: '',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
 
   // Dessert
 
@@ -615,6 +653,27 @@ export const restaurants = [
     price: ['$'],
     // recs: ['', ''],
     // notes: [''],
+  },
+
+  {
+    id: 87,
+    name: 'Macrons and Goodies',
+    category: ['Dessert'],
+    location: ['Central'],
+    neighbourhood: 'Downtoqn',
+    address: '10548 101 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Macarons+and+Goodies+french+bakery+-+Edmonton-/@53.5488679,-113.4940669,47m/data=!3m1!1e3!4m6!3m5!1s0x53a0224dd64ba1fb:0x3c30220e39099108!8m2!3d53.548843!4d-113.4939262!16s%2Fg%2F11c5zbp771?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(587) 473-6400',
+    tel: '+15874736400',
+    website: 'https://www.macaronsgoodies.com/',
+    instagram: 'https://www.instagram.com/macaronsandgoodies/',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    notes: [
+      "This place is in a rough-looking part of downtown. But sketchiness aside, it's absolutely worth it.",
+    ],
   },
 
   // Dutch
@@ -1637,6 +1696,27 @@ export const restaurants = [
     price: ['$$', '$$$'],
     // recs: [''],
     notes: ['Spanish tapas. Small plates, best shared by a group of people.'],
+  },
+
+  // Steakhouse
+
+  {
+    id: 86,
+    name: 'DOSC',
+    category: ['Steakhouse', 'Gastropub'],
+    location: ['Central'],
+    neighbourhood: 'Downtown',
+    address: '10190 104 Street NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Jumbo+Dim+Sum/@53.5484307,-113.6166547,17z/data=!3m1!4b1!4m6!3m5!1s0x53a0211ee86c5b41:0xf91740eb4ec810f6!8m2!3d53.5484275!4d-113.6140798!16s%2Fg%2F1q5bmtsym?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 540-0606',
+    tel: '+17805400606',
+    website: 'https://dosc.ca/',
+    instagram: 'https://www.instagram.com/doscrestaurant',
+    price: ['$$', '$$$'],
+    // recs: ['', ''],
+    // notes: [''],
   },
 
   // Thai

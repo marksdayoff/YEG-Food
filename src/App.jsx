@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
 import Filters from './components/Filters';
 import RestaurantList from './components/RestaurantList';
 import restaurants from './js/restaurants';
@@ -40,17 +42,21 @@ function App() {
   console.log('filteredRestaurants:', filteredRestaurants);
 
   return (
-    <div className='app'>
-      <Filters
-        filters={filters}
-        onFilterChange={handleFilterChange}
-        categoryOptions={categoryOptions}
-        priceOptions={priceOptions}
-        locationOptions={locationOptions}
-      />
+    <>
+      <Header />
+      <div className='app'>
+        <Hero />
+        <Filters
+          filters={filters}
+          onFilterChange={handleFilterChange}
+          categoryOptions={categoryOptions}
+          priceOptions={priceOptions}
+          locationOptions={locationOptions}
+        />
 
-      <RestaurantList restaurants={filteredRestaurants} />
-    </div>
+        <RestaurantList restaurants={filteredRestaurants} />
+      </div>
+    </>
   );
 }
 
