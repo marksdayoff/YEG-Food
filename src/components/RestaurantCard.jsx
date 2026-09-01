@@ -3,16 +3,26 @@ function RestaurantCard({ restaurant }) {
   return (
     <div className='restaurant-card'>
       <h3 className='name'>{restaurant.name}</h3>
-      <p className='category'></p>
-      <p className='location'>{restaurant.location}</p>
-      <p className='neighbourhood'>{restaurant.neighbourhood}</p>
-      <p className='address'>{restaurant.address}</p>
-      <p className='phone'>{restaurant.phone}</p>
-      <p className='website'>{restaurant.website}</p>
-      <p className='price'>{restaurant.price}</p>  
+      <a href='{restaurant.mapUrl}' className='address'>
+        {restaurant.address}
+      </a>
+      <p className='price'>{restaurant.price}</p>
+      <div className='details'>
+        <p className='category'></p>
+        <p className='neighbourhood'>{restaurant.neighbourhood}</p>
+        <a href='{restaurant.tel}' className='phone'>
+          {restaurant.phone}
+        </a>
+        <a href='{restaurant.website}' className='website'>
+          Website
+        </a>
+        <a className href='{restaurant.instagram}'>
+          <span></span>
+        </a>
+      </div>
+
       <div className='recs'>
-        <p className='rec'>{restaurant.recOne}</p>
-        <p className='rec'>{restaurant.recTwo}</p>
+        <p className='rec'>{restaurant.recs}</p>
       </div>
       <p className='notes'>{restaurant.notes}</p>
     </div>
