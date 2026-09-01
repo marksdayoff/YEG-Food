@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div>
+    <div className='hero'>
       <img src='' alt='' />
       <h1>Mark's Food Guide</h1>
     </div>

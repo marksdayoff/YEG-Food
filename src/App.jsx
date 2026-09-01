@@ -36,6 +36,12 @@ function App() {
     filters,
   );
 
+  restaurants.forEach((r) => {
+    if (r.notes && !Array.isArray(r.notes)) {
+      console.log('Bad notes on:', r.name, r.notes);
+    }
+  });
+
   console.log('restaurants:', restaurants);
   console.log('restaurants.length:', restaurants.length);
   console.log('filters:', filters);

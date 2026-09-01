@@ -17,8 +17,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/brio.bakery/',
     price: ['$'],
     recs: ['Olive Sourdough', 'Cinnamon Bun'],
-    notes:
+    notes: [
       "Arguably the best bakery in the city. Come early, it's often lined up, popular items can sell out quickly.",
+    ],
   },
 
   {
@@ -37,7 +38,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/tiramisu_bistro/',
     price: ['$'],
     recs: ['Cinnamon Buns'],
-    notes: 'The cinnamon buns are not cheap, but they are completely worth it.',
+    notes: [
+      'The cinnamon buns are not cheap, but they are completely worth it.',
+    ],
   },
 
   {
@@ -56,7 +59,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/duchessbakeshop',
     price: ['$$'],
     // recs: [''],
-    // notes: '',
+    // notes: [''],
   },
 
   // Barbeque
@@ -77,8 +80,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/meat_yeg',
     price: ['$$', '$$$'],
     // recs: [''],
-    notes:
+    notes: [
       'Best BBQ place in Edmonton. Large portions meant for sharing with groups.',
+    ],
   },
 
   // Breakfast/Brunch
@@ -99,7 +103,7 @@ export const restaurants = [
     // instagram: '',
     price: ['$$'],
     recs: ['Bratwurst Benny'],
-    notes: 'German food and incredible breakfast. An Edmonton institution.',
+    notes: ['German food and incredible breakfast. An Edmonton institution.'],
   },
 
   {
@@ -118,7 +122,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/dogpatchyeg/',
     price: ['$$'],
     // recs: [''],
-    // notes: '',
+    // notes: [''],
   },
 
   {
@@ -179,8 +183,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/oddcompanybrewing/',
     price: ['$'],
     recs: ['Coconut Passionfruit Sour', 'Cheeseburger'],
-    notes:
+    notes: [
       'Food menu is very limited. OS location has a much bigger menu, but I live downtown.',
+    ],
   },
 
   // British
@@ -199,9 +204,9 @@ export const restaurants = [
     tel: '',
     website: 'https://britsfishandchipsab.com/',
     // instagram: '',
-    price: [''],
-    recs: ['', ''],
-    notes: [''],
+    // price: [''],
+    // recs: ['', ''],
+    // notes: [''],
   },
 
   // Burgers
@@ -222,8 +227,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/foxburgerhighlands/',
     price: ['$'],
     // recs: [''],
-    notes:
+    notes: [
       "There are locations in Westmount and Leduc as well, but I've only been to the OG in Highlands.",
+    ],
   },
 
   // {
@@ -256,8 +262,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/brownbuttercafe/',
     price: ['$'],
     recs: ['Cinnamon Bun'],
-    notes:
+    notes: [
       "The cinnamon bun is on another level. It blows every other cinnamon bun I've ever had out of the water. Banger matcha latte as well.",
+    ],
   },
 
   {
@@ -276,8 +283,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/thecolombianyeg/',
     price: ['$'],
     recs: ['Coffee'],
-    notes:
+    notes: [
       'Best coffee in the city. Colombia is the country that made me fall in love with coffee. The owner is Colombian and imports beans directly from farms back home.',
+    ],
   },
 
   {
@@ -296,8 +304,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/thecolombianyeg/',
     price: ['$'],
     recs: ['Coffee'],
-    notes:
+    notes: [
       'Best coffee in the city. Colombia is the country that made me fall in love with coffee. The owner is Colombian and imports beans directly from farms back home.',
+    ],
   },
 
   {
@@ -316,8 +325,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/thecolombianyeg/',
     price: ['$'],
     recs: ['Coffee'],
-    notes:
+    notes: [
       'Best coffee in the city. Colombia is the country that made me fall in love with coffee. The owner is Colombian and imports beans directly from farms back home.',
+    ],
   },
 
   {
@@ -336,8 +346,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/square1coffee/',
     price: ['$'],
     recs: ['Coffee'],
-    notes:
+    notes: [
       "Great Coffee. - Several other locations that I haven't visited. - South (Fairway) Location has a lot of cool stuff to buy. - Glenora location is my favourite office away from the office.",
+    ],
   },
 
   {
@@ -356,8 +367,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/square1coffee/',
     price: ['$'],
     recs: ['Coffee'],
-    notes:
+    notes: [
       "Great Coffee. - Several other locations that I haven't visited. - South (Fairway) Location has a lot of cool stuff to buy. - Glenora location is my favourite office away from the office.",
+    ],
   },
 
   {
@@ -378,7 +390,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/littlebrickyeg/',
     price: ['$', '$$'],
     // recs:[''],
-    // notes: '',
+    // notes: [''],
   },
 
   {
@@ -437,7 +449,7 @@ export const restaurants = [
   },
 
   {
-    id: 79,
+    id: 81,
     name: 'Stopgap Coffee',
     category: ['Cafe'],
     location: ['Central'],
@@ -471,8 +483,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/dadeorestaurant/',
     price: ['$', '$$'],
     recs: ['Pulled Pork Po Boy', 'Sweet Potato Fries'],
-    notes:
+    notes: [
       "An Edmonton institution &mdash; 1950's style diner serving Cajun category.",
+    ],
   },
 
   // Canadian
@@ -493,8 +506,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/thebutternuttree/',
     price: ['$$$$'],
     // recs:[''] ,
-    notes:
+    notes: [
       'Great high-end spot overlooking the High Level Bridge. Strangely, not talked about often.',
+    ],
   },
 
   {
@@ -513,8 +527,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/rge_rd/',
     price: ['$$$$'],
     // recs: [''],
-    notes:
+    notes: [
       'Rotating menu, changing regularly. - Seating at the bar is often available for walk-ins. ',
+    ],
   },
 
   {
@@ -575,7 +590,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/thelingnan/',
     price: ['$$'],
     // recs: [''],
-    notes: "As far as Canadian-Chinese food goes, this is where it's at.",
+    notes: ["As far as Canadian-Chinese food goes, this is where it's at."],
   },
 
   {
@@ -672,7 +687,9 @@ export const restaurants = [
     price: ['$', '$$'],
     // recs: ['', ''],
     notes: [
-      "This place is in a rough-looking part of downtown. But sketchiness aside, it's absolutely worth it.",
+      [
+        "This place is in a rough-looking part of downtown. But sketchiness aside, it's absolutely worth it.",
+      ],
     ],
   },
 
@@ -693,14 +710,15 @@ export const restaurants = [
     website: 'https://dutchdeliciousbakery.com/',
     instagram: 'https://www.instagram.com/dutchdeliciousbakery/',
     price: ['$', '$$'],
-    notes:
+    notes: [
       'Dutch specialty store. Lots of cheese, pastries, and other imported snacks.',
+    ],
   },
 
   // Fast Food
 
   {
-    id: 76,
+    id: 78,
     name: "Rob's Original",
     category: ['Fried Chicken'],
     location: ['Central'],
@@ -716,12 +734,14 @@ export const restaurants = [
     price: ['$', '$$'],
     recs: ['Jumbo Strip', 'Chicken Sandwich'],
     notes: [
-      "Heat levels are real. Even if you like spicy, don't go all the way on your first try.",
+      [
+        "Heat levels are real. Even if you like spicy, don't go all the way on your first try.",
+      ],
     ],
   },
 
   {
-    id: 81,
+    id: 89,
     name: 'Swiss Donair',
     category: ['Donair'],
     location: ['North'],
@@ -744,7 +764,7 @@ export const restaurants = [
   // French
 
   {
-    id: 75,
+    id: 76,
     name: 'Partake',
     category: ['French', 'Casual'],
     location: ['Central'],
@@ -779,7 +799,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/sugarbowlcafe/',
     price: ['$$'],
     recs: ['Cinnamon Bun', 'Lamb Burger'],
-    notes: [''],
+    // notes: [''],
   },
 
   {
@@ -798,8 +818,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/thecommonyeg/',
     price: ['$$', '$$$'],
     // recs:[''],
-    notes:
+    notes: [
       'Solid downtown spot for lunch and dinner with a phenomenal vibe. Lots of good DJs in the evenings.',
+    ],
   },
 
   {
@@ -837,7 +858,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/threevikings/',
     price: ['$$'],
     // recs: ['FILL'],
-    notes: 'Underrated spot on 124th, one of the best food pubs in town.',
+    notes: ['Underrated spot on 124th, one of the best food pubs in town.'],
   },
 
   {
@@ -856,7 +877,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/redstaryeg/',
     price: ['$$'],
     // recs: [''],
-    // notes: '',
+    // notes: [''],
   },
 
   {
@@ -895,8 +916,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/remedycafe/',
     price: ['$$'],
     recs: ['Chicken Chana Wrap', 'Chai Latte'],
-    notes:
+    notes: [
       'Hipster cafe thats serves modern Indian food. - This is the original location near the UofA, other locations are spread around the city.',
+    ],
   },
 
   {
@@ -915,8 +937,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/remedycafe/',
     price: ['$$'],
     recs: ['Chicken Chana Wrap', 'Chai Latte'],
-    notes:
+    notes: [
       'Hipster cafe thats serves modern Indian food. - There are other locations around the city.',
+    ],
   },
 
   {
@@ -935,7 +958,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/noshcafe1/',
     price: ['$$'],
     recs: ['Dosa', 'Shahi Paneer'],
-    notes: 'Low-Key Indian spot with incredible food and an extensive menu.',
+    notes: ['Low-Key Indian spot with incredible food and an extensive menu.'],
   },
 
   // Indonesian
@@ -955,7 +978,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/padmanadi/',
     price: ['$$'],
     // recs: [''],
-    notes: 'Indonesian vegan food. Even as a non-vegan, I love this place.',
+    notes: ['Indonesian vegan food. Even as a non-vegan, I love this place.'],
   },
 
   // Italian
@@ -975,8 +998,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/barbricco/',
     price: ['$$$'],
     // recs: [''],
-    notes:
+    notes: [
       'When Daniel Costa opens an Italian restaurant, you go. Home runs all day long.',
+    ],
   },
 
   {
@@ -995,7 +1019,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/va_caffe/',
     price: ['$', '$$'],
     recs: ['Breakfast Panino', 'Mortadella Panini'],
-    notes: 'Tiny cafe with a small menu of phenomenal Italian snacks.',
+    notes: ['Tiny cafe with a small menu of phenomenal Italian snacks.'],
   },
 
   {
@@ -1014,8 +1038,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/olia_ristorante/',
     price: ['$$$$'],
     // recs: [''],
-    notes:
+    notes: [
       'Another Daniel Costa masterpiece. Arguably the best Italian restaurant in the city.',
+    ],
   },
 
   {
@@ -1035,9 +1060,11 @@ export const restaurants = [
     price: ['$'],
     recs: ['Panino'],
     notes: [
-      'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
-      'Produce is high quality and it has the best deli counter in town.',
-      'Other locations in Sherwood Park and the West End.',
+      [
+        'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
+        'Produce is high quality and it has the best deli counter in town.',
+        'Other locations in Sherwood Park and the West End.',
+      ],
     ],
   },
 
@@ -1058,9 +1085,11 @@ export const restaurants = [
     price: ['$'],
     recs: ['Panino'],
     notes: [
-      'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
-      'Produce is high quality and it has the best deli counter in town.',
-      'Other locations in Sherwood Park and the West End.',
+      [
+        'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
+        'Produce is high quality and it has the best deli counter in town.',
+        'Other locations in Sherwood Park and the West End.',
+      ],
     ],
   },
 
@@ -1082,8 +1111,10 @@ export const restaurants = [
     price: ['$$'],
     recs: ['Tsukemono'],
     notes: [
-      'Inconveniently located, but worth the visit for high-quality sushi.',
-      'Very few places offer tsukemono (Japanese pickles), so they have a leg up for that alone.',
+      [
+        'Inconveniently located, but worth the visit for high-quality sushi.',
+        'Very few places offer tsukemono (Japanese pickles), so they have a leg up for that alone.',
+      ],
     ],
   },
 
@@ -1189,7 +1220,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/seoulfriedchicken/',
     price: ['$$'],
     recs: ['Garlic Soy Chicken', 'Gochujang Caramel Chicken'],
-    notes: 'This place will change the way you think about fried chicken.',
+    notes: ['This place will change the way you think about fried chicken.'],
   },
 
   {
@@ -1208,7 +1239,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/seoulfriedchicken/',
     price: ['$$'],
     recs: ['Garlic Soy Chicken', 'Gochujang Caramel Chicken'],
-    notes: 'This place will change the way you think about fried chicken.',
+    notes: ['This place will change the way you think about fried chicken.'],
   },
 
   {
@@ -1227,7 +1258,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/buokfresh/',
     price: ['$'],
     recs: ['Bibimbaap'],
-    notes: 'Best bang for your buck Korean.',
+    notes: ['Best bang for your buck Korean.'],
   },
 
   // Latin & Meixcan
@@ -1292,7 +1323,7 @@ export const restaurants = [
   {
     id: 45,
     name: 'Avila Arepa',
-    category: ['Latin', 'Guatemalan'],
+    category: ['Latin', 'Venezuelan'],
     location: ['South'],
     neighbourhood: 'OS',
     address: '10760 82 Ave NW,',
@@ -1305,8 +1336,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/avila.arepa/',
     price: ['$'],
     recs: ['Pabellón Arepa', 'Yuca Frita'],
-    notes:
+    notes: [
       "Venezuelan joint on Whyte ave. I adore arepas and ate them all the time when I lived in Colombia. I don't know anywhere else in town that does them.",
+    ],
   },
 
   {
@@ -1325,11 +1357,11 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/callemexicorestaurant/',
     price: ['$'],
     // recs: ['', ''],
-    notes: [''],
+    // notes: [''],
   },
 
   {
-    id: 78,
+    id: 79,
     name: 'Sabor de los Andes',
     category: ['Colombian', 'Latin'],
     location: ['Central'],
@@ -1367,7 +1399,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/alsalampita/',
     price: ['$'],
     recs: ['Chicken Shawarma'],
-    notes: 'Middle Eastern groceries and restaurant.',
+    notes: ['Middle Eastern groceries and restaurant.'],
   },
 
   {
@@ -1386,8 +1418,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/sunbakepitabakery/',
     price: ['$'],
     recs: ['Chicken Shawarma Saj', "Za'atar and Cheese Pie"],
-    notes:
+    notes: [
       'They bake thousands of pitas daily. If you want pitas, buy them here, the quality is superb.',
+    ],
   },
 
   {
@@ -1737,7 +1770,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/numchokwilai/',
     price: ['$$'],
     // recs: [''],
-    // notes: '',
+    // notes: [''],
   },
 
   {
@@ -1823,7 +1856,7 @@ export const restaurants = [
   },
 
   {
-    id: 76,
+    id: 90,
     name: 'Pho hoan pasteur',
     category: ['Vietnamese'],
     location: ['Central'],

@@ -1,6 +1,8 @@
 :root {
   --color-primary: #f6f3ea;
   --color-white: #fefefe;
+  --color-black: #3a3a3a;
+  --color-grey: #7a7a7a;
 }
 
 html {
@@ -10,10 +12,28 @@ html {
 
 body {
   background: var(--color-primary);
+  font-family: 'Helvetica';
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
 }
 
 .app {
-  max-width: 900px;
+  max-width: 768px;
   margin: 0 auto;
 }
 
@@ -26,15 +46,26 @@ body {
   background: black;
 }
 
+.hero {
+  margin-bottom: 2.4rem;
+
+  h1 {
+    font-size: 4.8rem;
+  }
+}
+
 /* Filters */
 
 .filters {
   display: flex;
   justify-content: space-between;
+  gap: 2.4rem;
   margin-bottom: 4.8rem;
 
   select {
     width: 100%;
+    background: none;
+    padding: 1.2rem 2.4rem;
     font-size: 1.8rem;
     border-radius: 1rem;
     border: 1px solid #707070;
@@ -43,6 +74,10 @@ body {
       font-size: 1.4rem;
     }
   }
+
+  select::picker-icon {
+    margin-right: 4rem;
+  }
 }
 
 /* Restaurant Cards */
@@ -50,18 +85,99 @@ body {
 .restaurant-card {
   background: var(--color-white);
   margin-bottom: 2.4rem;
-  padding: 1.2rem;
+  padding: 2.4rem;
   border-radius: 2rem;
-  font-family: 'Helvetica';
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
   .name {
     font-weight: 700;
     font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .second {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    align-items: center;
+    margin-bottom: 1.2rem;
+
+    .mappin {
+      display: inline-block;
+      width: 2rem;
+    }
+
+    .location-details {
+      display: inline;
+      font-size: 1.4rem;
+    }
+
+    .neighbourhood {
+      margin: 0.6rem 0 0 0;
+      font-size: 1rem;
+    }
+  }
+
+  .price {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2.4px;
   }
 
   .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8rem;
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+
+    ul {
+      line-height: 8px;
+    }
+
+    .details-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2.4rem;
+    }
+
     a {
       display: block;
+    }
+
+    .categories {
+      ul {
+        display: flex;
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        padding: 0;
+        font-weight: 400;
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+  }
+
+  .details > :first-child {
+    flex: 1;
+  }
+
+  .details > :not(:first-child) {
+    flex: 1;
+  }
+
+  .recs,
+  .notes {
+    display: flex;
+
+    h4 {
+      color: var(--color-grey);
     }
   }
 }
