@@ -15,7 +15,7 @@ function Filters({
         value={filters.category}
         onChange={(e) => onFilterChange('category', e.target.value)}
       >
-        <option value=''>All Categorys</option>
+        <option value=''>All Categories</option>
         {categoryOptions.map((category) => (
           <option key={category} value={category}>
             {category}
