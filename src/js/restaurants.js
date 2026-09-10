@@ -1019,7 +1019,10 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/va_caffe/',
     price: ['$', '$$'],
     recs: ['Breakfast Panino', 'Mortadella Panini'],
-    notes: ['Tiny cafe with a small menu of phenomenal Italian snacks.'],
+    notes: [
+      'Tiny cafe with a small menu of phenomenal Italian snacks.',
+      'Test',
+    ],
   },
 
   {
@@ -1060,11 +1063,9 @@ export const restaurants = [
     price: ['$'],
     recs: ['Panino'],
     notes: [
-      [
-        'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
-        'Produce is high quality and it has the best deli counter in town.',
-        'Other locations in Sherwood Park and the West End.',
-      ],
+      'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
+      'Produce is high quality and it has the best deli counter in town.',
+      'Other locations in Sherwood Park and the West End.',
     ],
   },
 
@@ -1085,11 +1086,9 @@ export const restaurants = [
     price: ['$'],
     recs: ['Panino'],
     notes: [
-      [
-        'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
-        'Produce is high quality and it has the best deli counter in town.',
-        'Other locations in Sherwood Park and the West End.',
-      ],
+      'The panino is a right of passage for Edmontonians. This sandwich is ledgendary.',
+      'Produce is high quality and it has the best deli counter in town.',
+      'Other locations in Sherwood Park and the West End.',
     ],
   },
 

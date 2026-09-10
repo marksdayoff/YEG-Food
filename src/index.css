@@ -1,8 +1,10 @@
 :root {
-  --color-primary: #f6f3ea;
   --color-white: #fefefe;
   --color-black: #3a3a3a;
   --color-grey: #7a7a7a;
+  --color-background: #f6f3ea;
+  --color-primary: #c1613d;
+  --color-secondary: #7a8b6f;
 }
 
 html {
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-  background: var(--color-primary);
+  background: var(--color-background);
   font-family: 'Helvetica';
 }
 
@@ -21,6 +23,8 @@ h3,
 h4,
 p {
   margin: 0;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
 }
 
 a {
@@ -30,6 +34,11 @@ a {
 
 ul {
   margin: 0;
+
+  li {
+    text-box-trim: trim-both;
+    text-box-edge: cap alphabetic;
+  }
 }
 
 .app {
@@ -101,28 +110,34 @@ ul {
     justify-content: space-between;
     gap: 1.2rem;
     align-items: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
 
-    .mappin {
-      display: inline-block;
-      width: 2rem;
+    .location {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+
+      .mappin {
+        display: inline-block;
+        width: 2rem;
+      }
+
+      .location-details {
+        display: inline;
+        font-size: 1.4rem;
+      }
+
+      .neighbourhood {
+        margin: 0.6rem 0 0 0;
+        font-size: 1rem;
+      }
     }
 
-    .location-details {
-      display: inline;
-      font-size: 1.4rem;
+    .price {
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 2.4px;
     }
-
-    .neighbourhood {
-      margin: 0.6rem 0 0 0;
-      font-size: 1rem;
-    }
-  }
-
-  .price {
-    font-size: 1.6rem;
-    font-weight: 600;
-    letter-spacing: 2.4px;
   }
 
   .details {
@@ -130,7 +145,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     gap: 8rem;
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
+    margin: 0.8rem 0 1.2rem 0;
     font-size: 1.4rem;
     font-weight: 100;
 
@@ -155,6 +171,7 @@ ul {
         gap: 1.2rem;
         flex-wrap: wrap;
         padding: 0;
+        font-size: 1.6rem;
         font-weight: 400;
 
         li {
@@ -172,12 +189,34 @@ ul {
     flex: 1;
   }
 
+  .recs {
+    margin-bottom: 1.4rem;
+  }
   .recs,
   .notes {
     display: flex;
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    line-height: 1.6;
 
     h4 {
       color: var(--color-grey);
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+
+    ul {
+      li {
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-transform: none;
+      }
+      li:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
     }
   }
+}
+
+@media (hover: hover) {
 }

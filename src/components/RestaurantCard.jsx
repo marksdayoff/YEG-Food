@@ -35,9 +35,9 @@ function RestaurantCard({ restaurant }) {
             </a>
             <p className='neighbourhood'>{restaurant.neighbourhood}</p>
           </div>
-          <p className='price'>{restaurant.price}</p>
         </div>
       </div>
+      <p className='price'>{restaurant.price}</p>
 
       <div className='details'>
         {/* <p className='category'>{restaurant.category}</p> */}
@@ -87,7 +87,7 @@ function RestaurantCard({ restaurant }) {
 
       {restaurant.recs && restaurant.recs.length > 0 && (
         <div className='recs'>
-          <h4>Highlights</h4>
+          <h4>Highlight:</h4>
           <ul>
             {restaurant.recs.map((rec, index) => (
               <li key={index}>{rec}</li>
@@ -98,7 +98,7 @@ function RestaurantCard({ restaurant }) {
 
       {restaurant.notes && restaurant.notes.length > 0 && (
         <div className='notes'>
-          <h4>Notes</h4>
+          <h4>Notes:</h4>
           <ul>
             {restaurant.notes.map((note, index) => (
               <li key={index}>{note}</li>
