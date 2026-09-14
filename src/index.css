@@ -4,11 +4,11 @@
   --color-grey: #8a8a8a;
   --color-background: #f6f3ea;
   --color-primary: #c1613d;
-  --color-secondary: #7a8b6f;
   --color-secondary: #66755d;
+  --color-highlight: #d8ac45;
   --color-primary--soft: #c1613d50;
   --color-secondary--soft: #7a8b6f50;
-  --color-highlight: #d8ac45;
+  --color-highlight--soft: #d8ac4550;
 }
 
 * {
@@ -23,6 +23,8 @@ html {
 body {
   background: var(--color-background);
   font-family: 'Helvetica';
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.2;
 }
 
 h1,
@@ -83,12 +85,14 @@ ul {
     width: 100%;
     background: none;
     padding: 1.2rem 2.4rem;
+
     font-size: 1.8rem;
     border-radius: 1rem;
     border: 1px solid #707070;
 
     option {
       font-size: 1.4rem;
+      font-family: 'Roboto Condensed', sans-serif;
     }
   }
 
@@ -103,9 +107,10 @@ ul {
   background: var(--color-white);
   margin-bottom: 2.4rem;
   padding: 2.4rem;
+  box-shadow: 0 0 4px var(--color-secondary--soft);
   border-radius: 2rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 
   .name {
     font-weight: 700;
@@ -273,21 +278,22 @@ ul {
 
 @media (hover: hover) {
   .restaurant-card:hover {
-    transition: 150ms;
+    transition: 250ms;
     box-shadow: 0 0 24px var(--color-secondary--soft);
   }
 
   .restaurant-card a:hover {
+    transition: 250ms;
     color: var(--color-highlight);
   }
 
-  .restaurant-card a:hover::after {
+  /* .restaurant-card a:not(:last-child):hover::after {
     content: '';
     position: relative;
     display: block;
     margin-top: 1px;
     width: 100%;
-    border-bottom: 1px solid black;
-    box-shadow: 0px 3px 10px black;
-  }
+    border-bottom: 8px solid var(--color-highlight);
+    
+  } */
 }
