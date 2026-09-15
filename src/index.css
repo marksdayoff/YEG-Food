@@ -110,7 +110,6 @@ ul {
   box-shadow: 0 0 4px var(--color-secondary--soft);
   border-radius: 2rem;
   text-transform: uppercase;
-  /* letter-spacing: 1px; */
 
   .name {
     font-weight: 700;
@@ -190,35 +189,75 @@ ul {
     justify-content: space-between;
     gap: 8rem;
     margin-top: 0.8rem;
-    margin: 1.4rem 0 1.6rem 0;
+    margin: 1.6rem 0 0 0;
     font-size: 1.4rem;
-    font-weight: 100;
+    font-weight: 400;
 
     ul {
       line-height: 8px;
     }
 
-    .categories {
-      ul {
-        display: flex;
-        gap: 1.2rem;
-        flex-wrap: wrap;
-        padding: 0;
-        font-size: 1.6rem;
-        font-weight: 400;
+    .details-styles {
+      .cuisine,
+      .categories {
+        ul {
+          display: flex;
+          gap: 1.2rem;
+          flex-wrap: wrap;
+          padding: 0;
+          font-size: 1.6rem;
+          font-weight: 400;
 
-        li {
-          list-style: none;
-          margin-right: 1.4rem;
-          color: var(--color-primary);
+          li {
+            list-style: none;
+            margin-right: 1.4rem;
+          }
+
+          li:not(:last-child)::after {
+            content: '|';
+            position: absolute;
+            margin-top: -1px;
+            padding-left: 1rem;
+            font-weight: 100;
+          }
         }
-        li:not(:last-child)::after {
-          content: '|';
-          position: absolute;
-          margin-top: -1px;
-          padding-left: 1rem;
+      }
 
-          font-weight: 100;
+      .cuisine {
+        ul {
+          li {
+            color: var(--color-primary);
+            margin-bottom: -0.2rem;
+          }
+
+          li:last-child {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+
+      .categories {
+        ul {
+          display: flex;
+          gap: 1.2rem;
+          flex-wrap: wrap;
+          padding: 0;
+          font-size: 1.4rem;
+          font-weight: 600;
+
+          li {
+            list-style: none;
+            margin-right: 1.4rem;
+            color: var(--color-secondary);
+          }
+
+          li:not(:last-child)::after {
+            content: '|';
+            position: absolute;
+            margin-top: -1px;
+            padding-left: 1rem;
+            font-weight: 100;
+          }
         }
       }
     }
@@ -228,12 +267,13 @@ ul {
       align-items: center;
       justify-content: space-between;
       gap: 2.4rem;
-      transition: 250ms;
+      transition: 150ms;
     }
 
     a {
       position: relative;
       display: block;
+      font-weight: 500;
       background: var(--color-white);
       z-index: 100;
     }
@@ -247,20 +287,17 @@ ul {
     flex: 1;
   }
 
-  .recs {
-    margin-bottom: 1.4rem;
-  }
   .recs,
   .notes {
     display: flex;
     display: grid;
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: 8rem 1fr;
     line-height: 1.6;
 
     h4 {
       color: var(--color-grey);
       font-weight: bold;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
     ul {
@@ -274,16 +311,24 @@ ul {
       }
     }
   }
+
+  .recs {
+    margin-top: 1.4rem;
+  }
+
+  .notes {
+    margin-top: 1.6rem;
+  }
 }
 
 @media (hover: hover) {
   .restaurant-card:hover {
-    transition: 250ms;
+    transition: 150ms;
     box-shadow: 0 0 24px var(--color-secondary--soft);
   }
 
   .restaurant-card a:hover {
-    transition: 250ms;
+    transition: 150ms;
     color: var(--color-highlight);
   }
 

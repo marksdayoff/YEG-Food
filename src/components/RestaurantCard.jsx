@@ -50,15 +50,27 @@ function RestaurantCard({ restaurant }) {
 
       <div className='details'>
         {/* <p className='category'>{restaurant.category}</p> */}
-        {restaurant.category && restaurant.category.length > 0 && (
-          <div className='categories'>
-            <ul>
-              {restaurant.category.map((category, index) => (
-                <li key={index}>{category}</li>
-              ))}
-            </ul>
-          </div>
-        )}
+        <div className='details-styles'>
+          {restaurant.cuisine && restaurant.cuisine.length > 0 && (
+            <div className='cuisine'>
+              <ul>
+                {restaurant.cuisine.map((cuisine, index) => (
+                  <li key={index}>{cuisine}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {restaurant.category && restaurant.category.length > 0 && (
+            <div className='categories'>
+              <ul>
+                {restaurant.category.map((category, index) => (
+                  <li key={index}>{category}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
 
         <div className='details-inner'>
           <a href={restaurant.tel} className='phone'>

@@ -7,7 +7,7 @@ export const restaurants = [
     category: ['Bakery'],
     // cuisine: [],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12021 102 Ave \#104, Edmonton, AB T5K 0R8',
     city: 'Edmonton',
     mapUrl:
@@ -26,9 +26,9 @@ export const restaurants = [
   {
     id: 2,
     name: 'Lift Me Up Bakery',
-    // category: ['Bakery'],
+    category: ['Bakery', 'Dessert'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10750 124 St, Edmonton, AB T5M 0H1',
     city: 'Edmonton',
     mapUrl:
@@ -47,10 +47,10 @@ export const restaurants = [
   {
     id: 3,
     name: 'Duchess',
-    category: ['Bakery'],
+    category: ['Bakery', 'Dessert'],
     cuisine: ['French'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10718 124 St, Edmonton, AB T5M 0H1',
     city: 'Edmonton',
     mapUrl:
@@ -114,7 +114,7 @@ export const restaurants = [
     id: 6,
     name: 'Dogpatch',
     category: ['Brunch', 'Pub'],
-    location: 'Central',
+    location: ['Central'],
     neighbourhood: 'Riverdale',
     address: '#101, 10158 90 St NW',
     city: 'Edmonton',
@@ -131,7 +131,7 @@ export const restaurants = [
 
   {
     id: 67,
-    name: "Hap's",
+    name: "Hap's Hungry House",
     category: ['Breakfast'],
     location: ['West'],
     neighbourhood: 'Britannia Youngstown',
@@ -153,9 +153,9 @@ export const restaurants = [
   {
     id: 75,
     name: 'OEB',
-    category: ['Breakfast'],
+    category: ['Breakfast', 'Casual'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '#56, 10240 124 St NW',
     city: 'Edmonton',
     mapUrl:
@@ -165,8 +165,10 @@ export const restaurants = [
     website: 'https://eatoeb.com/',
     instagram: 'https://www.instagram.com/oeb_breakfast',
     price: ['$', '$$'],
-    // recs: ['', ''],
-    // notes: [''],
+    recs: ["Everything I've tried is delicious.", ''],
+    notes: [
+      'Other locations Downtown, Rabbit Hill Road, and in the airport departures lounge.',
+    ],
   },
 
   // Breweries
@@ -176,7 +178,7 @@ export const restaurants = [
     name: 'Odd Company OG',
     category: ['Brewery', 'Burger'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12021 102 Ave #105, Edmonton, AB T5K 0R8',
     city: 'Edmonton',
     mapUrl:
@@ -205,7 +207,7 @@ export const restaurants = [
     mapUrl:
       'https://www.google.com/maps/place/Brits+Fish+%26+Chips/@53.5065929,-113.4455634,310m/data=!3m1!1e3!4m6!3m5!1s0x53a0188f665cf7df:0x28d649c681f0a15!8m2!3d53.5065426!4d-113.4455295!16s%2Fg%2F1ty73yvb?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
     phone: '(780) 485-1797',
-    tel: '',
+    tel: '7804851797',
     website: 'https://britsfishandchipsab.com/',
     // instagram: '',
     // price: [''],
@@ -219,7 +221,7 @@ export const restaurants = [
     id: 8,
     name: 'Fox Burger Highlands',
     category: ['Burgers'],
-    location: 'North',
+    location: ['North'],
     neighbourhood: 'Highlands',
     address: '6423 112 Ave NW, Edmonton, AB T5W 0N9',
     city: 'Edmonton',
@@ -265,7 +267,7 @@ export const restaurants = [
     name: 'Brown Butter Cafe',
     category: ['Cafe'],
     location: ['South'],
-    // neighbourhood:'',
+    neighbourhood: 'Ellerslie',
     address: '1528 91 St SW, Edmonton, AB T6X 1M5',
     city: 'Edmonton',
     mapUrl:
@@ -350,7 +352,7 @@ export const restaurants = [
     category: ['Cafe'],
     location: ['West'],
     neighbourhood: 'Glenora',
-    address: '14055 West Block Dr NW Unit 140, Edmonton, AB T5N 1L8',
+    address: '14055 West Block Dr NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Square+1+Coffee+-+Glenora/@53.5434164,-113.5576172,16.32z/data=!4m14!1m7!3m6!1s0x53a023d176efd5a1:0x64ca46072526711d!2sLift+Me+Up+Bakery!8m2!3d53.5523615!4d-113.5361652!16s%2Fg%2F11nnv_5n7z!3m5!1s0x539ff9f9569d280b:0xdafd66f95b1473da!8m2!3d53.5433334!4d-113.5647066!16s%2Fg%2F11f62s_v1x?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -371,7 +373,7 @@ export const restaurants = [
     category: ['Cafe'],
     location: ['South'],
     neighbourhood: 'Aspen Gardens',
-    address: '15 Fairway Dr NW, Edmonton, AB T6J 2S6',
+    address: '15 Fairway Dr NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Square+1+Coffee+-+Aspen+Gardens/@53.470154,-113.5427269,15.4z/data=!3m1!5s0x53a01f0c460dd213:0x74c50c3ea17140cb!4m14!1m7!3m6!1s0x53a023d176efd5a1:0x64ca46072526711d!2sLift+Me+Up+Bakery!8m2!3d53.5523615!4d-113.5361652!16s%2Fg%2F11nnv_5n7z!3m5!1s0x53a01f0c44ff38ab:0x3fa4a68f88da38f9!8m2!3d53.4722732!4d-113.5398415!16s%2Fg%2F11cmxz232q?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -430,7 +432,7 @@ export const restaurants = [
     name: 'Iconoclast',
     category: ['Cafe'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '#103, 12021 102 Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -467,7 +469,7 @@ export const restaurants = [
     name: 'Stopgap Coffee',
     category: ['Cafe'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '9749 111 St NW',
     city: 'Edmonton',
     mapUrl:
@@ -509,7 +511,7 @@ export const restaurants = [
     name: 'Butternut Tree',
     category: ['Bougie'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '9707 110 St NW #101, Edmonton, AB T5K 2L9',
     city: 'Edmonton',
     mapUrl:
@@ -530,7 +532,7 @@ export const restaurants = [
     name: 'Rge Rd',
     category: ['Bougie'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10643 123 St NW, Edmonton, AB T5N 1P2',
     city: 'Edmonton',
     mapUrl:
@@ -565,6 +567,26 @@ export const restaurants = [
     // notes: [''],
   },
 
+  {
+    id: 99,
+    name: "Bernadette's",
+    category: ['Bougie'],
+    cuisine: ['Canadian', 'Indigenous'],
+    location: ['Central'],
+    neighbourhood: 'Downtown',
+    address: '10114 104 Street NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Bernadette%E2%80%99s/@53.5412994,-113.4998829,81m/data=!3m1!1e3!4m6!3m5!1s0x53a0230012bcbceb:0x4706afca916512fc!8m2!3d53.5413322!4d-113.4996812!16s%2Fg%2F11y484dzrf?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(587) 879-4317',
+    tel: '5878794317',
+    website: 'https://www.bernadettes.ca/',
+    instagram: 'https://www.instagram.com/bernadettes104',
+    price: ['$$$'],
+    recs: ['Spam stuffed olives.', 'Elk Carpaccio'],
+    // notes: [''],
+  },
+
   // Casual
 
   {
@@ -582,7 +604,50 @@ export const restaurants = [
     website: 'https://www.nextactpub.com/',
     instagram: 'https://www.instagram.com/nextactpub',
     price: ['$$'],
-    recs: ['Burger'],
+    recs: ['The Critic'],
+    notes: [
+      'Some of the best non-smash style burgers in the city.',
+      "I haven't tried the PB&J but have heard that it's amazing.",
+    ],
+  },
+
+  {
+    id: 95,
+    name: 'Tiramisu Bistro',
+    category: ['Bistro', 'Casual'],
+    // cuisine: [''],
+    location: ['Central'],
+    neighbourhood: 'Oliver /Wîhkwêntôwin',
+    address: '10750 124 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Tiramisu+Bistro/@53.5528241,-113.5390237,1370m/data=!3m1!1e3!4m6!3m5!1s0x4163a34aedd7e5f7:0x4677f526c5602de!8m2!3d53.5523908!4d-113.5362982!16s%2Fg%2F11b5qvsptb?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 452-3393',
+    tel: '7804523393',
+    website: 'https://tiramisubistro.ca/',
+    instagram: 'https://www.instagram.com/tiramisu_bistro/',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
+  {
+    id: 97,
+    name: 'Darling',
+    category: ['Casual'],
+    // cuisine: [''],
+    location: ['South'],
+    neighbourhood: 'Mill Creek',
+    address: '9616 Whyte Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Darling/@53.5182789,-113.4773325,132m/data=!3m2!1e3!5s0x53a022737b6df8bf:0xee019c36c9ec46da!4m6!3m5!1s0x53a023f2f6b3ca23:0xa4b76b9b3b0a1380!8m2!3d53.5181943!4d-113.4773841!16s%2Fg%2F11rsfy6tln?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(877) 694-0767',
+    tel: '8776940767',
+    website: 'https://darlingrestaurant.ca/',
+    instagram: 'https://www.instagram.com/darling.yeg',
+    price: ['$$'],
+    recs: ['Turkish Eggs'],
     // notes: [''],
   },
 
@@ -594,7 +659,7 @@ export const restaurants = [
     cuisine: ['Chinese'],
     location: ['Central'],
     neighbourhood: 'Downtown',
-    address: '10582 104 St NW, Edmonton, AB T5H 2W1',
+    address: '10582 104 St NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/The+Lingnan/@53.554655,-113.5153841,15.48z/data=!4m14!1m7!3m6!1s0x53a023d176efd5a1:0x64ca46072526711d!2sLift+Me+Up+Bakery!8m2!3d53.5523615!4d-113.5361652!16s%2Fg%2F11nnv_5n7z!3m5!1s0x53a0224c712fa363:0xfe2bd3aff91b5185!8m2!3d53.549522!4d-113.4995049!16s%2Fg%2F1wg5xpmq?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -613,7 +678,7 @@ export const restaurants = [
     cuisine: ['Chinese'],
     category: ['Dim Sum'],
     location: ['West'],
-    neighbourhood: '',
+    neighbourhood: 'Brittania Youngstown',
     address: '10451 170 St NW',
     city: 'Edmonton',
     mapUrl:
@@ -635,7 +700,7 @@ export const restaurants = [
     category: ['Dessert'],
     location: ['North'],
     neighbourhood: 'Highlands',
-    address: '6507 112 Ave NW, Edmonton, AB T5W 0P1',
+    address: '6507 112 Ave NW',
     city: 'Edmonton',
     mapUrl: '6507 112 Ave NW',
     phone: '(780) 474-5547',
@@ -653,7 +718,7 @@ export const restaurants = [
     category: ['Dessert'],
     location: ['South'],
     neighbourhood: 'Richie',
-    address: '9551 76 Ave NW, Edmonton, AB T6C 0K1',
+    address: '9551 76 Ave NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Kind+Ice+Cream/@53.5108834,-113.4774863,16.34z/data=!3m1!5s0x53a018a0012c5317:0x395885d421b46d43!4m6!3m5!1s0x53a0194a5ace5a99:0xaf89676db8fdb27a!8m2!3d53.512138!4d-113.476085!16s%2Fg%2F11h0_6c84z?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -671,8 +736,8 @@ export const restaurants = [
     name: 'Kind Ice Cream Downtown',
     category: ['Dessert'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
-    address: '12017 102 Ave NW, Edmonton, AB T5K 0R8',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
+    address: '12017 102 Ave NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Kind+Ice+Cream/@53.5423654,-113.5267227,14.87z/data=!4m6!3m5!1s0x53a02349057b368b:0x51198763294b002f!8m2!3d53.5428341!4d-113.5299564!16s%2Fg%2F11ssg0k7c3?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -688,7 +753,8 @@ export const restaurants = [
   {
     id: 87,
     name: 'Macrons and Goodies',
-    category: ['Dessert'],
+    cuisine: ['French'],
+    category: ['Dessert', 'Bakery'],
     location: ['Central'],
     neighbourhood: 'Downtoqn',
     address: '10548 101 St NW',
@@ -713,7 +779,7 @@ export const restaurants = [
     name: 'Made by Marcus',
     category: ['Dessert'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10426 Whyte Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -723,8 +789,8 @@ export const restaurants = [
     website: 'http://www.madebymarcus.ca/',
     instagram: 'https://www.instagram.com/madebymarcus/',
     price: ['$'],
-    recs: ["Salted Caramel Goat's Cheese"],
-    notes: [''],
+    recs: ["Salted caramel goat's cheese ice cream"],
+    // notes: [''],
   },
 
   // Dutch
@@ -733,7 +799,7 @@ export const restaurants = [
     id: 21,
     name: 'Dutch Delicious',
     cuisine: ['Dutch'],
-    category: ['Groceries'],
+    category: ['grocery'],
     location: 'West',
     neighbourhood: 'Westmount',
     address: '13232 118 Ave NW',
@@ -779,7 +845,7 @@ export const restaurants = [
   {
     id: 89,
     name: 'Swiss Donair',
-    category: ['Donair'],
+    category: ['Fast Food'],
     location: ['North'],
     neighbourhood: 'Dickinsfield',
     address: '8308 144 Ave NW',
@@ -802,10 +868,10 @@ export const restaurants = [
   {
     id: 76,
     name: 'Partake',
-    category: ['Casual'],
+    category: ['Bistro'],
     cuisine: ['French'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12431 102 Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -844,7 +910,7 @@ export const restaurants = [
     name: 'The Common',
     category: ['Gastropub'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '9910 109 St NW',
     city: 'Edmonton',
     mapUrl:
@@ -867,7 +933,7 @@ export const restaurants = [
     cuisine: ['German'],
     location: 'North',
     neighbourhood: 'Sprucewood',
-    address: '11405 95 St',
+    address: '11405 95 St NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/OTTO+Food+and+Drink/@53.562394,-113.4964142,15.65z/data=!3m1!5s0x53a023a9ccc4756b:0xb0608e1089686241!4m14!1m7!3m6!1s0x53a023d176efd5a1:0x64ca46072526711d!2sLift+Me+Up+Bakery!8m2!3d53.5523615!4d-113.5361652!16s%2Fg%2F11nnv_5n7z!3m5!1s0x53a023a9cccd383f:0x49959e84a8a95481!8m2!3d53.5645034!4d-113.4869837!16s%2Fg%2F11ddwtgxcc?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -886,7 +952,7 @@ export const restaurants = [
     category: ['Gastropub'],
     cuisine: ['Danish'],
     location: 'Central',
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10713 124 St',
     city: 'Edmonton',
     mapUrl:
@@ -904,7 +970,7 @@ export const restaurants = [
     id: 25,
     name: 'Red Star',
     category: ['Gastropub'],
-    location: 'Central',
+    location: ['Central'],
     neighbourhood: 'Downtown',
     address: '10534 Jasper Ave',
     city: 'Edmonton',
@@ -938,6 +1004,54 @@ export const restaurants = [
     // notes: [''],
   },
 
+  // Grocery
+
+  {
+    id: 104,
+    name: 'Sunterra Market',
+    category: ['Grocery'],
+    // cuisine: [''],
+    location: ['South'],
+    neighbourhood: 'Lendrum',
+    address: '5728 111 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Sunterra+Market,+Lendrum/@53.4952159,-113.5179464,803m/data=!3m2!1e3!5s0x53a01f5a7d6dac7b:0xf03152be3cad3b41!4m6!3m5!1s0x53a01f5a80746619:0x593549dd2efa47a6!8m2!3d53.495067!4d-113.517787!16s%2Fg%2F1tgfptdn?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    phone: '17804342610',
+    tel: '17804342610',
+    website: 'https://www.sunterramarket.com/',
+    // instagram: '',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    notes: [
+      'Upscale grocery store with a selection of unique products.',
+      'A lot of good prepared meals for takeaway.',
+    ],
+  },
+
+  {
+    id: 105,
+    name: 'El Safadi Mediterranean Market',
+    category: ['Grocery'],
+    cuisine: ['Middle Eastern'],
+    location: ['North'],
+    neighbourhood: 'Rosslyn',
+    address: '11316 134 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Elsafadi+Mediterranean+Supermarket/@53.5949881,-113.5172637,800m/data=!3m1!1e3!4m6!3m5!1s0x53a0238071c27dff:0xf2656f87719337f9!8m2!3d53.5952258!4d-113.5158828!16s%2Fg%2F1tdzfp89?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    phone: '17804754909',
+    tel: '17804754909',
+    // website: '',
+    // instagram: '',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    notes: [
+      'Great shop specializing in Middle Eastern and Mediterranean ingredients.',
+      "Another location is found further North in Castle Downs, although I haven't checked it out.",
+    ],
+  },
+
   // Indian
   {
     id: 26,
@@ -946,7 +1060,7 @@ export const restaurants = [
     cuisine: ['Indian'],
     location: ['South'],
     neighbourhood: 'Old Strathcona',
-    address: '8631 – 109 Street',
+    address: '8631 109 Street',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Remedy+Cafe/@53.5226479,-113.512012,19.2z/data=!4m6!3m5!1s0x53a022195caa127b:0xb5fbc993324e581!8m2!3d53.5228042!4d-113.5117214!16s%2Fg%2F1tycwbb5?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -967,8 +1081,8 @@ export const restaurants = [
     category: ['Cafe'],
     cuisine: ['Indian'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
-    address: '10310 – 124 Street',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
+    address: '10310 124 Street',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Remedy+Cafe/@53.5451316,-113.5360885,18.58z/data=!4m6!3m5!1s0x53a0222b47843253:0xdcc4edd2f0bef9ef!8m2!3d53.5447629!4d-113.5361328!16s%2Fg%2F11b5qtwzj7?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -986,9 +1100,9 @@ export const restaurants = [
   {
     id: 28,
     name: 'Nosh Cafe',
-    category: ['Indian'],
+    cuisine: ['Indian'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '8708 109 St NW',
     city: 'Edmonton',
     mapUrl:
@@ -1075,7 +1189,7 @@ export const restaurants = [
     category: ['Cafe'],
     cuisine: ['Italian'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12024 Jasper Ave',
     city: 'Edmonton',
     mapUrl:
@@ -1086,10 +1200,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/va_caffe/',
     price: ['$', '$$'],
     recs: ['Breakfast Panino', 'Mortadella Panini'],
-    notes: [
-      'Tiny cafe with a small menu of phenomenal Italian snacks.',
-      'Test',
-    ],
+    notes: ['Tiny cafe with a small menu of phenomenal Italian snacks.'],
   },
 
   {
@@ -1098,7 +1209,7 @@ export const restaurants = [
     category: ['Bougie'],
     cuisine: ['Italian'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12016 Jasper Avenue',
     city: 'Edmonton',
     mapUrl:
@@ -1191,7 +1302,7 @@ export const restaurants = [
   {
     id: 36,
     name: 'Dorinku Tokyo',
-    category: ['Sushi', 'Street Food'],
+    category: ['Sushi', 'Street Food', 'Ramen'],
     cuisine: ['Japanese'],
     location: ['South'],
     neighbourhood: 'Old Strathcona',
@@ -1217,7 +1328,7 @@ export const restaurants = [
     category: ['Sushi'],
     cuisine: ['Japanese'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '11806 Jasper Ave',
     city: 'Edmonton',
     mapUrl:
@@ -1256,9 +1367,10 @@ export const restaurants = [
   {
     id: 39,
     name: 'Tokiwa',
-    category: ['Japanese'],
+    category: ['Ramen'],
+    cuisine: ['Japanese'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: ['Oliver / Wîhkwêntôwin'],
     address: '11978 104 Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -1274,6 +1386,26 @@ export const restaurants = [
       'Line-ups on the weekend, expect to wait.',
       'Closing hours vary, only open until broth runs out.',
     ],
+  },
+
+  {
+    id: 100,
+    name: 'Menya Mori',
+    category: ['Ramen'],
+    cuisine: ['Japenese'],
+    location: ['Central'],
+    neighbourhood: 'O-W',
+    address: '10350 124 St',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Menya+Mori/@53.5459581,-113.5389854,1411m/data=!3m1!1e3!4m6!3m5!1s0x53a02357003b507f:0xb43f0727fa18c202!8m2!3d53.5459549!4d-113.5364105!16s%2Fg%2F11wg0nv1tx?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    // phone: '',
+    // tel: '',
+    website: 'https://menyamori.com/',
+    instagram: 'https://www.instagram.com/menya.mori/',
+    price: ['$$'],
+    recs: ['Tokyo Style Shoyu Ramen', 'Tonkotsu Ramen'],
+    // notes: [''],
   },
 
   // Korean
@@ -1349,7 +1481,7 @@ export const restaurants = [
     ],
     location: ['Central'],
     neighbourhood: 'Alberta Avenue',
-    address: '9136-118 Avenue NW',
+    address: '9136 118 Avenue NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Paraiso+Tropical+-+Latin+Market+North/@53.5685362,-113.4848203,17.26z/data=!4m6!3m5!1s0x53a02308d1d4c4c9:0x527deb9e6d3c9460!8m2!3d53.5704869!4d-113.482235!16s%2Fg%2F1tg67st2?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -1379,7 +1511,7 @@ export const restaurants = [
     ],
     location: ['South'],
     neighbourhood: 'Allendale',
-    address: '6926-104 Street NW',
+    address: '6926 104 Street NW',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.ca/maps/place/Paraiso+Tropical+-+Latin+Market+South/@53.5034118,-113.497986,16.35z/data=!4m6!3m5!1s0x53a018a9893592fb:0xd5e1f61efb8494da!8m2!3d53.5060659!4d-113.4981531!16s%2Fg%2F11b70bml56?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
@@ -1458,6 +1590,46 @@ export const restaurants = [
     ],
   },
 
+  {
+    id: 96,
+    name: 'La Cocina Latina',
+    category: ['Street Food', 'Casual'],
+    cuisine: ['Colombian', 'Mexican'],
+    location: ['North'],
+    // neighbourhood: '',
+    address: '13119 156 St NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/La+Cocina+Latina/@53.5911812,-113.5894778,567m/data=!3m1!1e3!4m6!3m5!1s0x53a027129864d84f:0x103aeebb1b86c210!8m2!3d53.5909413!4d-113.5894351!16s%2Fg%2F11rtj71rff?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(587) 817-0339',
+    tel: '5878170339',
+    website: 'https://lacocinalatina.online/',
+    instagram: 'https://www.instagram.com/la.cocina.latina/',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    // notes: [''],
+  },
+
+  {
+    id: 103,
+    name: 'Acajutla',
+    category: ['Casual', 'Street Food'],
+    cuisine: ['Salvadoran'],
+    location: ['Central'],
+    neighbourhood: 'Queen Mary Park',
+    address: '11302 107 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Acajutla/@53.5514642,-113.5169976,522m/data=!3m1!1e3!4m6!3m5!1s0x53a023cae05d9073:0x3117157d70f924d4!8m2!3d53.5515861!4d-113.5161089!16s%2Fg%2F1td7hdxp?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 426-1308',
+    tel: '17804261308',
+    website: 'https://acajutla.ca/',
+    // instagram: '',
+    price: ['$', '$$'],
+    recs: ['Pupusas', 'Chilaquiles'],
+    // notes: [''],
+  },
+
   // Middle Eastern & Persian
 
   {
@@ -1529,7 +1701,7 @@ export const restaurants = [
     category: ['Bistro'],
     cuisine: ['Middle Eastern'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12015 102 Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -1612,7 +1784,7 @@ export const restaurants = [
     name: "Fn'Za",
     category: ['Pizza'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '11939 Jasper Ave',
     city: 'Edmonton',
     mapUrl:
@@ -1648,7 +1820,7 @@ export const restaurants = [
       'Potato, Capicola and Truffle Oil Pizza',
       'Soppressato and Pesto Pizza',
     ],
-    notes: ['Other locations in Richie and in Oliver/Wîhkwêntôwin'],
+    notes: ['Other locations in Richie and in Oliver / Wîhkwêntôwin'],
   },
 
   // Portuguese
@@ -1690,7 +1862,7 @@ export const restaurants = [
     price: ['$$'],
     // recs: [''],
     notes: [
-      "Proper English pub that's been around for almost 20 years. One of the best spots for a pint in the city.",
+      "Proper English pub that's been around for 40 years. One of the best spots for a pint in the city.",
       'Several locations exist, but downtown is the best.',
     ],
   },
@@ -1699,7 +1871,7 @@ export const restaurants = [
     id: 94,
     name: 'Duggans Boundary',
     category: ['Pub'],
-    // cuisine: [''],
+    cuisine: ['Irish'],
     location: ['South'],
     neighbourhood: 'Bonnie Doon',
     address: '9013 88 Ave NW',
@@ -1713,6 +1885,46 @@ export const restaurants = [
     price: ['$', '$$'],
     // recs: ['', ''],
     // notes: [''],
+  },
+
+  {
+    id: 98,
+    name: "Leopold's",
+    category: ['Pub'],
+    // cuisine: [''],
+    location: ['South'],
+    neighbourhood: 'Old Strathcona',
+    address: '10302 82 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      "https://www.google.com/maps/place/Leopold's+Tavern+Edmonton+-+Strathcona/@53.5184672,-113.4956301,267m/data=!3m1!1e3!4m6!3m5!1s0x53a02397b0c706f5:0x976d82a3a9ab53ac!8m2!3d53.5182348!4d-113.4951544!16s%2Fg%2F11hm15dwf_?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D",
+    phone: '(855) 522-5367',
+    tel: '8555225367',
+    website: 'https://leopoldstavern.com/',
+    instagram: 'https://www.instagram.com/leopoldstavern/',
+    price: ['$$'],
+    recs: ['Any of their feature poutines.'],
+    notes: ['Other locations far South in Rutherford and Summerside'],
+  },
+
+  {
+    id: 101,
+    name: "O'Byrne's",
+    category: ['Pub'],
+    cuisine: ['Irish'],
+    location: ['South'],
+    neighbourhood: 'Old Strathcona',
+    address: '10616 Whyte Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      "https://www.google.com/maps/place/O'Byrne's+Irish+Pub+-+Whyte+Ave/@53.5192049,-113.5063043,17.03z/data=!4m15!1m8!3m7!1s0x53a0224580deff23:0x411fa00c4af6155d!2sEdmonton,+AB!3b1!8m2!3d53.5461663!4d-113.4937356!16zL20vMG5saDc!3m5!1s0x53a0221ad483567d:0x53b2661195fb1032!8m2!3d53.518267!4d-113.504369!16s%2Fg%2F1th4924x?entry=ttu&g_ep=EgoyMDI2MDgyMy4wIKXMDSoASAFQAw%3D%3D",
+    phone: '(780) 414-6766',
+    tel: '7804146766',
+    website: 'https://www.obyrnes.com/whyte-avenue-page',
+    instagram: 'https://www.instagram.com/obyrnesirishpub/?hl=en',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    notes: ['One of the best patios on Whyte Ave.'],
   },
 
   // Sandwiches
@@ -1744,7 +1956,7 @@ export const restaurants = [
     name: 'Farrow 124th',
     category: ['Sandwiches'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '#6, 10240 124 St',
     city: 'Edmonton',
     mapUrl:
@@ -1777,7 +1989,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/pals_yeg/',
     price: ['$$'],
     recs: ['Cubano'],
-    notes: ['The Cubano is &#x1f525 (When they have it on the menu, at least)'],
+    notes: [
+      'The Cubano is straight &#x1f525 (When they have it on the menu, at least)',
+    ],
   },
 
   {
@@ -1811,6 +2025,7 @@ export const restaurants = [
     mapUrl:
       'https://www.google.com/maps/place/@53.5379317,-113.515406,11151m/data=!3m2!1e3!5s0x53a022489237a1df:0x454a1ed829979579!4m10!1m2!2m1!1sbodega!3m6!1s0x53a0224890f2d03b:0xa701382f02a061a6!8m2!3d53.5434186!4d-113.497686!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwV2JrNUlaSE5WVkVJeFZtcG9NVnB1VlRSV2FsWjBXbFZTVkZGWVl4QULgAQD6AQQIABAx!16s%2Fg%2F11b6q8z78s?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
     phone: '780-757-1114',
+    tel: '+17807571114',
     website: 'https://www.bodegabysabor.ca/',
     instagram: 'https://www.instagram.com/bodegabysabor/',
     price: ['$$', '$$$'],
@@ -1823,13 +2038,13 @@ export const restaurants = [
     name: 'Bodega 124th',
     cuisine: ['Spanish'],
     location: ['Central'],
-    location: 'Central',
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12417 Stony Plain Rd',
     city: 'Edmonton',
     mapUrl:
       'https://www.google.com/maps/place/Bodega+124+Street/@53.5468056,-113.6131899,11149m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a023d4bd68259f:0xc17e09eacf95536!8m2!3d53.5468056!4d-113.5369722!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEKcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOQ1owd3RNVTluRUFF4AEA-gEFCKwEEC0!16s%2Fg%2F11f48js5bn?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
     phone: '780-250-6066',
+    tel: '+17802506066',
     website: 'https://www.bodegabysabor.ca/',
     instagram: 'https://www.instagram.com/bodegabysabor/',
     price: ['$$', '$$$'],
@@ -1848,6 +2063,7 @@ export const restaurants = [
     mapUrl:
       'https://www.google.com/maps/place/Bodega+Highlands/@53.5379317,-113.515406,11151m/data=!3m1!1e3!4m10!1m2!2m1!1sbodega!3m6!1s0x53a022d8b5660b1d:0x5739e7f250d88ab9!8m2!3d53.564646!4d-113.4381348!15sCgZib2RlZ2FaCCIGYm9kZWdhkgEJdGFwYXNfYmFymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJzNVYyTXpSbEpVVjBaYVZsWTVWMU5GV25OVFZVNWhUVEJzVTJGV1JSQULgAQD6AQQIGBBH!16s%2Fg%2F11c4bg6yx8?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D',
     phone: '780-757-0137',
+    tel: '+17807570137',
     website: 'https://www.bodegabysabor.ca/',
     instagram: 'https://www.instagram.com/bodegabysabor/',
     price: ['$$', '$$$'],
@@ -1876,6 +2092,28 @@ export const restaurants = [
     // notes: [''],
   },
 
+  {
+    id: 102,
+    name: 'Colosseum Steak and Pizza',
+    category: ['Steakhouse'],
+    // cuisine: [''],
+    location: ['North'],
+    neighbourhood: 'Parkdale',
+    address: '8015 118 Ave NW',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Coliseum+Steak+%26+Pizza/@53.5733469,-113.4790919,7094m/data=!3m1!1e3!4m6!3m5!1s0x53a0231a3f8716f1:0x800a32f3e6d567f0!8m2!3d53.5702775!4d-113.4649307!16s%2Fg%2F1thf87k_?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 474-1640',
+    tel: '7804741640',
+    website: 'https://coliseumsteak.com/',
+    // instagram: '',
+    price: ['$$'],
+    recs: ['Steak Sandwich'],
+    notes: [
+      'Classic "steak and pizza" place that hasn\'t changed in 50 years.',
+    ],
+  },
+
   // Thai
 
   {
@@ -1883,7 +2121,7 @@ export const restaurants = [
     name: 'Numchok Wilai',
     cuisine: ['Thai'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10623 124 St NW',
     city: 'Edmonton',
     mapUrl:
@@ -1947,7 +2185,7 @@ export const restaurants = [
     category: ['Sandwiches'],
     cuisine: ['Vietnamese'],
     location: ['Central'],
-    neighbourhood: 'Oliver/Wîhkwêntôwin',
+    neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '11765 Jasper Ave',
     city: 'Edmonton',
     mapUrl:
@@ -2001,7 +2239,7 @@ export const restaurants = [
 ];
 // Key:
 // OS = Old Strathcona
-OW = Oliver / Wîhkwêntôwin;
+// OW = Oliver / Wîhkwêntôwin;
 // WM = Westmount
 // MC
 

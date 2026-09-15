@@ -2,13 +2,16 @@
 export function getFilteredRestaurants(restaurants, filters) {
   return restaurants.filter((restaurant) => {
     const matchesCategory =
-      filters.category === '' || restaurant.category.includes(filters.category);
+      filters.category === '' ||
+      restaurant.category?.includes(filters.category);
+    const matchesCuisine =
+      filters.cuisine === '' || restaurant.cuisine?.includes(filters.cuisine);
     const matchesPrice =
-      filters.price === '' || restaurant.price.includes(filters.price);
+      filters.price === '' || restaurant.price?.includes(filters.price);
     const matchesLocation =
-      filters.location === '' || restaurant.location === filters.location;
+      filters.location === '' || restaurant.location.includes(filters.location);
 
-    return matchesCategory && matchesPrice && matchesLocation;
+    return matchesCategory && matchesCuisine && matchesPrice && matchesLocation;
   });
 }
 

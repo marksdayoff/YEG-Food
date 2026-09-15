@@ -10,6 +10,7 @@ function App() {
   const [shuffledRestaurants] = useState(() => shuffleArray(restaurants));
   const [filters, setFilters] = useState({
     category: '',
+    cuisine: '',
     price: '',
     location: '',
   });
@@ -23,6 +24,9 @@ function App() {
 
   const categoryOptions = [
     ...new Set(restaurants.flatMap((r) => r.category)),
+  ].sort();
+  const cuisineOptions = [
+    ...new Set(restaurants.flatMap((r) => r.cuisine ?? [])),
   ].sort();
   const priceOptions = [
     ...new Set(restaurants.flatMap((r) => r.price).filter(Boolean)),
@@ -56,6 +60,7 @@ function App() {
           filters={filters}
           onFilterChange={handleFilterChange}
           categoryOptions={categoryOptions}
+          cuisineOptions={cuisineOptions}
           priceOptions={priceOptions}
           locationOptions={locationOptions}
         />
