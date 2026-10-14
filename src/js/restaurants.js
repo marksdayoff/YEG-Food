@@ -176,7 +176,7 @@ export const restaurants = [
   {
     id: 7,
     name: 'Odd Company OG',
-    category: ['Brewery', 'Burger'],
+    category: ['Brewery', 'Burgers'],
     location: ['Central'],
     neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '12021 102 Ave #105, Edmonton, AB T5K 0R8',
@@ -190,7 +190,7 @@ export const restaurants = [
     price: ['$'],
     recs: ['Coconut Passionfruit Sour', 'Cheeseburger'],
     notes: [
-      'Food menu is very limited. Old Strathcona location has a much bigger menu, but I live downtown.',
+      'Food menu is very limited. Old Strathcona location has a much bigger menu, but I live downtown, so this spot is my jam.',
     ],
   },
 
@@ -200,6 +200,7 @@ export const restaurants = [
     id: 88,
     name: "Brit's Fish and Chips",
     cuisine: ['British'],
+    category: ['Casual'],
     location: ['South'],
     neighbourhood: 'Argyyl',
     address: '6940 77 St NW, Edmonton',
@@ -211,7 +212,7 @@ export const restaurants = [
     website: 'https://britsfishandchipsab.com/',
     // instagram: '',
     // price: [''],
-    // recs: ['', ''],
+    recs: ['Cod and Chips with mushy peas'],
     // notes: [''],
   },
 
@@ -531,6 +532,7 @@ export const restaurants = [
     id: 19,
     name: 'Rge Rd',
     category: ['Bougie'],
+    cuisine: ['Canadian'],
     location: ['Central'],
     neighbourhood: 'Oliver / Wîhkwêntôwin',
     address: '10643 123 St NW, Edmonton, AB T5N 1P2',
@@ -717,7 +719,7 @@ export const restaurants = [
     name: 'Kind Ice Cream South',
     category: ['Dessert'],
     location: ['South'],
-    neighbourhood: 'Richie',
+    neighbourhood: 'Ritchie',
     address: '9551 76 Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -778,8 +780,8 @@ export const restaurants = [
     id: 91,
     name: 'Made by Marcus',
     category: ['Dessert'],
-    location: ['Central'],
-    neighbourhood: 'Oliver / Wîhkwêntôwin',
+    location: ['South'],
+    neighbourhood: 'Old Strathcona',
     address: '10426 Whyte Ave NW',
     city: 'Edmonton',
     mapUrl:
@@ -963,7 +965,10 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/threevikings/',
     price: ['$$'],
     // recs: ['FILL'],
-    notes: ['Underrated spot on 124th, one of the best food pubs in town.'],
+    notes: [
+      'Underrated spot on 124th, one of the best food pubs in town.',
+      'A mix of Danish food and classic pub snacks.',
+    ],
   },
 
   {
@@ -1179,7 +1184,7 @@ export const restaurants = [
     price: ['$$$'],
     // recs: [''],
     notes: [
-      'When Daniel Costa opens an Italian restaurant, you go. Home runs all day long.',
+      "Home runs, all day. If you're willing to spend a little cash for impeccable Italian food, this should be on your short list.",
     ],
   },
 
@@ -1339,6 +1344,10 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/japonais_jasperave/',
     price: ['$$', '$$$'],
     recs: ['Bento Box', 'Sashimi'],
+    notes: [
+      'One of the top spots for higher end sushi.',
+      'Lunch bento boxes are a killer deal.',
+    ],
   },
 
   {
@@ -1358,10 +1367,7 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/japonais_windermere/',
     price: ['$$', '$$$'],
     recs: ['Bento Box', 'Sashimi'],
-    notes: [
-      'One of the top spots for higher end sushi.',
-      'Lunch Bentos are a killer deal.',
-    ],
+    notes: ['One of the top spots for higher end sushi.'],
   },
 
   {
@@ -1820,7 +1826,7 @@ export const restaurants = [
       'Potato, Capicola and Truffle Oil Pizza',
       'Soppressato and Pesto Pizza',
     ],
-    notes: ['Other locations in Richie and in Oliver / Wîhkwêntôwin'],
+    notes: ['Other locations in Ritchie and in Oliver / Wîhkwêntôwin'],
   },
 
   // Portuguese
@@ -1990,7 +1996,7 @@ export const restaurants = [
     price: ['$$'],
     recs: ['Cubano'],
     notes: [
-      'The Cubano is straight &#x1f525 (When they have it on the menu, at least)',
+      'The Cubano is straight 🔥 (When they have it on the menu, at least)',
     ],
   },
 
@@ -2089,7 +2095,9 @@ export const restaurants = [
     instagram: 'https://www.instagram.com/doscrestaurant',
     price: ['$$', '$$$'],
     // recs: ['', ''],
-    // notes: [''],
+    notes: [
+      'Probably the best steakhouse in the city. The perfect mix of traditional and modern, without the pretentiousness of other spots in town.',
+    ],
   },
 
   {
@@ -2237,10 +2245,5 @@ export const restaurants = [
     notes: ['Multiple locations, but the OG near Kingsway is my spot.'],
   },
 ];
-// Key:
-// OS = Old Strathcona
-// OW = Oliver / Wîhkwêntôwin;
-// WM = Westmount
-// MC
 
 export default restaurants;
