@@ -2185,6 +2185,28 @@ export const restaurants = [
     ],
   },
 
+  {
+    id: 106,
+    name: 'Orbit',
+    category: ['Grocery'],
+    cuisine: ['Ukranian'],
+    location: ['Central'],
+    neighbourhood: 'Downtown',
+    address: '10219 97 St NW, Edmonton, AB T5J 0L6',
+    city: 'Edmonton',
+    mapUrl:
+      'https://www.google.com/maps/place/Orbit+Ukrainian+Store+operated+by+Mirko/@53.5446532,-113.4885019,16z/data=!3m1!4b1!4m6!3m5!1s0x53a02245557dc89d:0x7cec7fb67c70ce0c!8m2!3d53.54465!4d-113.485927!16s%2Fg%2F1tf5_zlz?entry=ttu&g_ep=EgoyMDI2MTAxMS4wIKXMDSoASAFQAw%3D%3D',
+    phone: '(780) 422-5693',
+    tel: '+17804225693',
+    website: 'https://mirkostores.ca/',
+    // instagram: '',
+    price: ['$', '$$'],
+    // recs: ['', ''],
+    notes: [
+      'Small Ukrainian specialty shop with a lot of unique items that are otherwise hard to find.',
+    ],
+  },
+
   // Vietnamese
 
   {
