@@ -410,23 +410,23 @@ export const restaurants = [
     // notes: [''],
   },
 
-  {
-    id: 65,
-    name: 'Felice Cafe',
-    category: ['Cafe'],
-    location: ['Central'],
-    neighbourhood: 'McCauly',
-    address: '10930 84 Street NW',
-    city: 'Edmonton',
-    mapUrl:
-      'https://www.google.com/maps/place/Felice+Cafe/@53.5565845,-113.4734576,17.38z/data=!4m6!3m5!1s0x53a0234c0db10939:0xb61fd69dbdf1ea0b!8m2!3d53.5566129!4d-113.4716802!16s%2Fg%2F11pzdy729q?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
-    // phone: '',
-    website: 'https://www.felicecafe.ca/',
-    instagram: 'https://www.instagram.com/felicecafeyeg',
-    price: ['$'],
-    // recs: ['', ''],
-    // notes: [''],
-  },
+  // {
+  //   id: 65,
+  //   name: 'Felice Cafe',
+  //   category: ['Cafe'],
+  //   location: ['Central'],
+  //   neighbourhood: 'McCauly',
+  //   address: '10930 84 Street NW',
+  //   city: 'Edmonton',
+  //   mapUrl:
+  //     'https://www.google.com/maps/place/Felice+Cafe/@53.5565845,-113.4734576,17.38z/data=!4m6!3m5!1s0x53a0234c0db10939:0xb61fd69dbdf1ea0b!8m2!3d53.5566129!4d-113.4716802!16s%2Fg%2F11pzdy729q?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+  //   // phone: '',
+  //   website: 'https://www.felicecafe.ca/',
+  //   instagram: 'https://www.instagram.com/felicecafeyeg',
+  //   price: ['$'],
+  //   // recs: ['', ''],
+  //   // notes: [''],
+  // },
 
   {
     id: 69,
@@ -594,7 +594,7 @@ export const restaurants = [
   {
     id: 74,
     name: 'Next Act Pub',
-    category: ['Causal', 'Pub'],
+    category: ['Casual', 'Pub'],
     location: ['South'],
     neighbourhood: 'Old Strathcona',
     address: '8224 104 Street NW',
@@ -1533,27 +1533,27 @@ export const restaurants = [
     ],
   },
 
-  {
-    id: 45,
-    name: 'Avila Arepa',
-    category: ['Street Food'],
-    cuisine: ['Latin', 'Venezuelan'],
-    location: ['South'],
-    neighbourhood: 'Old Strathcona',
-    address: '10760 82 Ave NW,',
-    city: 'Edmonton',
-    mapUrl:
-      'https://www.google.ca/maps/place/%C3%81vila+Arepa+-+Urban+Venezuelan+Kitchen/@53.5183191,-113.5082212,19.68z/data=!4m6!3m5!1s0x53a0221b5c52c85d:0x229ca5b4efcd1d4c!8m2!3d53.5182817!4d-113.5086597!16s%2Fg%2F11d_894mqr?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
-    phone: '(780) 249-9436',
-    tel: '+17802499436',
-    website: 'https://www.avilaarepa.ca/',
-    instagram: 'https://www.instagram.com/avila.arepa/',
-    price: ['$'],
-    recs: ['Pabellón Arepa', 'Yuca Frita'],
-    notes: [
-      "Venezuelan joint on Whyte ave. I adore arepas and ate them all the time when I lived in Colombia. I don't know anywhere else in town that does them.",
-    ],
-  },
+  // {
+  //   id: 45,
+  //   name: 'Avila Arepa',
+  //   category: ['Street Food'],
+  //   cuisine: ['Latin', 'Venezuelan'],
+  //   location: ['South'],
+  //   neighbourhood: 'Old Strathcona',
+  //   address: '10760 82 Ave NW,',
+  //   city: 'Edmonton',
+  //   mapUrl:
+  //     'https://www.google.ca/maps/place/%C3%81vila+Arepa+-+Urban+Venezuelan+Kitchen/@53.5183191,-113.5082212,19.68z/data=!4m6!3m5!1s0x53a0221b5c52c85d:0x229ca5b4efcd1d4c!8m2!3d53.5182817!4d-113.5086597!16s%2Fg%2F11d_894mqr?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D',
+  //   phone: '(780) 249-9436',
+  //   tel: '+17802499436',
+  //   website: 'https://www.avilaarepa.ca/',
+  //   instagram: 'https://www.instagram.com/avila.arepa/',
+  //   price: ['$'],
+  //   recs: ['Pabellón Arepa', 'Yuca Frita'],
+  //   notes: [
+  //     "Venezuelan joint on Whyte ave. I adore arepas and ate them all the time when I lived in Colombia. I don't know anywhere else in town that does them.",
+  //   ],
+  // },
 
   {
     id: 64,
@@ -2077,6 +2077,10 @@ export const restaurants = [
     notes: ['Spanish tapas. Small plates, best shared by a group of people.'],
   },
 
+  // South African
+
+
+
   // Steakhouse
 
   {
@@ -2088,7 +2092,7 @@ export const restaurants = [
     address: '10190 104 Street NW',
     city: 'Edmonton',
     mapUrl:
-      'https://www.google.com/maps/place/Jumbo+Dim+Sum/@53.5484307,-113.6166547,17z/data=!3m1!4b1!4m6!3m5!1s0x53a0211ee86c5b41:0xf91740eb4ec810f6!8m2!3d53.5484275!4d-113.6140798!16s%2Fg%2F1q5bmtsym?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D',
+      'https://www.google.com/maps/place/DOSC/@53.5428719,-113.5020971,17z/data=!3m1!4b1!4m6!3m5!1s0x53a0238cebff8963:0xe49ee9cdc9c86817!8m2!3d53.5428719!4d-113.4995222!16s%2Fg%2F11g1mg0g4n?entry=ttu&g_ep=EgoyMDI2MTExNS4wIKXMDSoASAFQAw%3D%3D',
     phone: '(780) 540-0606',
     tel: '+17805400606',
     website: 'https://dosc.ca/',

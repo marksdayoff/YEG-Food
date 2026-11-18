@@ -11,14 +11,44 @@
   --color-highlight--soft: #d8ac4550;
 }
 
+/* Navy and Burnt Orange */
 :root {
   --color-background: #f4f3ef;
   --color-primary: #1e3a5f;
   --color-primary--light: #1e3a5f2a;
   --color-secondary: #a8501a;
   --color-secondary--light: #a8501a2a;
-  --color-highlight: #d39a4a;
+  --color-highlight: #a8501a;
+  --color-text: #17202e;
 }
+
+/* Terracotta and Olive */
+:root {
+  --color-primary: #c4552D;
+  --color-primary--med: #c4552d68;
+  --color-primary--soft: #c4552d2a;
+  --color-secondary: #5e6b3a;
+  --color-secondary--soft: #5e6b3a2a;
+  --color-text: #2b2118;
+}
+
+/* Teal and Coral */
+/* :root {
+  --color-primary: #1f5f5b;
+  --color-primary--soft: #1f5f5b2a;
+  --color-secondary: #e2674a;
+  --color-secondary--soft: #e2674a2a;
+  --color-text: #1c2b2a;
+} */
+
+/* Burgandy and Sage */
+/* :root {
+  --color-primary: #7a1f3d;
+  --color-primary--soft: #7a1f3d2a;
+  --color-secondary: #7f9172;
+  --color-secondary--soft: #7f91722a;
+  --color-text: #2a1a20;
+} */
 
 * {
   box-sizing: border-box;
@@ -117,14 +147,13 @@ ul {
   display: flex;
   flex-direction: column;
   margin-bottom: 2.4rem;
-  /* padding: 2.4rem; */
   box-shadow: 0 0 2px var(--color-secondary--soft);
   border-radius: 2rem;
   text-transform: uppercase;
   overflow: hidden;
 
   .upper {
-    background: var(--color-primary--light);
+    background: var(--color-primary--soft);
     padding: 2.4rem 2.4rem 0 2.4rem;
 
     .name {
@@ -242,20 +271,20 @@ ul {
               margin-bottom: -0.2rem;
               border-radius: 50px;
               background: var(--color-primary--light);
-              padding: 0.6rem 1.2rem;
+              padding: .9rem 1.2rem 0.6rem;
             }
 
-            li:last-child {
+            li{
               margin-bottom: 1rem;
-            }
 
-            li:not(:last-child)::after {
+          }
+            /* li:not(:last-child)::after {
               content: '|';
               position: absolute;
               margin-top: -1px;
               padding-left: 1rem;
               font-weight: 100;
-            }
+            } */
           }
         }
 
@@ -272,7 +301,7 @@ ul {
               list-style: none;
               margin-right: 1.4rem;
               background: var(--color-secondary--light);
-              padding: 0.6rem 1.2rem;
+              padding: 0.8rem 1.2rem 0.6rem;
               border-radius: 50px;
               color: var(--color-secondary);
             }
